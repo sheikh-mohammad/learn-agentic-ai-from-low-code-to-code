@@ -154,8 +154,20 @@ By the end, participants can:
 
 ---
 
+## Four learning levels
 
-### References (for your enablement team)
+After completing this course (Level 1) you will be at Level 1, after that you will be ready for Levels 2, 3, and 4.
+
+* **Level 1: No-Code** — build end-to-end in AgentKit (This Course)
+* **Level 2: Code-First** — Learn Python and start in Apps SDK, then import visual flows where helpful.
+* **Level 3: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
+* **Level 4: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
+
+
+---
+
+
+### References
 
 * OpenAI **Introducing AgentKit** (features, availability, pricing). ([OpenAI][1])
 * OpenAI **Agent platform overview** (Builder, ChatKit, Evals). ([OpenAI][3])
@@ -170,3 +182,5 @@ If you want, I can tailor this to a specific audience (e.g., support orgs, schoo
 [3]: https://openai.com/agent-platform/ "API Agents | OpenAI"
 [4]: https://openai.github.io/openai-guardrails-python/ "OpenAI Guardrails Python"
 [5]: https://techcrunch.com/2025/10/06/openai-launches-agentkit-to-help-developers-build-and-ship-ai-agents/?utm_source=chatgpt.com "OpenAI launches AgentKit to help developers build and ship AI agents"
+
+
