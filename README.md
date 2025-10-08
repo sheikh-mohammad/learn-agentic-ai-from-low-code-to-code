@@ -1,7 +1,7 @@
 # Learn Agentic AI: From Low-Code to Code
 *Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP, LLM CLIs, and Spec-Kit Plus*
 
-**All Pakistan All Star Faculty** Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar) and Rehan (Islamabad),.
+**All Pakistan All Star Faculty:** Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar) and Rehan (Islamabad),.
 
 **Why this course:** Most teams can prototype agents; few can run them reliably in production. This course closes that gap—fast prototyping, then rigorous engineering.
 
