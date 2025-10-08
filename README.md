@@ -37,6 +37,7 @@ By the end, learners can:
 7. **Evaluation & Safety** — task success metrics, regression suites, guardrails. *Lab:* write evals; catch prompt regressions.
 8. **Ops & Observability** — logging, traces, costs, latency; blue/green rollouts. *Lab:* instrument and dashboard your agent.
 9. **Packaging & Deployment** — Dockerization, config, CI; cloud deploy. *Lab:* deploy a minimal production stack.
+10. **Full-Code Development** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
 
 ## Three learning tracks
 
