@@ -15,12 +15,6 @@ Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code 
 
 Developers, solution architects, and technical PMs who want to ship agentic applications quickly, then harden them with code, tests, and ops.
 
-## Prerequisites
-
-* Comfortable with Python
-* Basic APIs, Git
-
-
 ## Learning outcomes
 
 By the end, learners can:
