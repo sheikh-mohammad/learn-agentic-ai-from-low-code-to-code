@@ -158,9 +158,9 @@ By the end, participants can:
 
 After completing this course (Level 1) you will be at Level 1, after that you will be ready for Levels 2, 3, and 4.
 
-* **Level 1: No-Code** — build end-to-end in AgentKit (This Course)
-* **Level 2: Code-First** — Learn Python and start in Apps SDK, then import visual flows where helpful.
-* **Level 3: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
+* **Level 1: No-Code Agent Development** — build end-to-end in AgentKit (This Course)
+* **Level 2: Apps SDK Code-First** — [Learn Python](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab) and start in Apps SDK, then import visual flows where helpful (This course will be offered by Panaversity later). 
+* **Level 3: Full-Code Agents SDK** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
 * **Level 4: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
 
