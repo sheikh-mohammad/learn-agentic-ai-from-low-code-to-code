@@ -1,7 +1,8 @@
 # Learn Agentic AI: From Low-Code to Code
 *Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP, LLM CLIs, and Spec-Kit Plus*
 
-**All Pakistan All Star Faculty:** Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar) and Rehan (Islamabad).
+**All-Pakistan and All-Star Faculty:**
+Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar), Rehan (Islamabad) and Zia (Karachi).
 
 **Live YouTube Classes [@panaversity channel](https://www.youtube.com/@panaversity) on Wednesday and Thursday and 8:00 pm - 10:00 pm:** Class starting from Oct 15, 2025. Recording Also Available on [@Panaversity YouTube Channel](https://www.youtube.com/@panaversity)
 
