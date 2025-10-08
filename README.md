@@ -1,5 +1,5 @@
 # Learn Agentic AI: From Low-Code to Code
-*Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP, LLM CLIs, and Spec-Kit Plus*
+*Build production-grade agents with OpenAI AgentKit*
 
 This Free Course is Offered by: [Panaversity](https://panaversity.org/)
 
