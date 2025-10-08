@@ -2,7 +2,9 @@
 *Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK and MCP*
 
 **Why this course:** Most teams can prototype agents; few can run them reliably in production. This course closes that gap—fast prototyping, then rigorous engineering.
+
 **You will learn:** workflow design, tool integration, memory/RAG, evaluation, safety, and production operations.
+
 **You will build:** a real agent, observable, testable, and deployable.
 
 ## One-line promise
