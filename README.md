@@ -1,6 +1,8 @@
 # Learn Agentic AI: From Low-Code to Code
 *Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP, LLM CLIs, and Spec-Kit Plus*
 
+This Free Course is Offered by: [Panaversity](https://panaversity.org/)
+
 **All-Pakistan and All-Star Faculty:**
 Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar), Rehan (Islamabad) and Zia (Karachi).
 
@@ -45,7 +47,7 @@ By the end, participants can:
 ## Format & pacing
 
 * **4 weeks** · **2 sessions/week** · **2–3 hours/session** (+ optional office hours)
-* **Alt**: **2-day bootcamp** covering the same modules with condensed labs
+* **Alt**: **2-day bootcamp** covering the same modules with condensed labs to be offered in Companies and Universities
 * Delivery: live workshop or flipped classroom (short videos + guided labs)
 
 ---
@@ -142,31 +144,16 @@ By the end, participants can:
 
 ---
 
-## Optional 2-day bootcamp agenda (condensed)
+## Optional 2-day bootcamp agenda (condensed) to offered in Universities and Companies
 
 **Day 1 AM:** Foundations + first workflow (Sessions 1–3)
 **Day 1 PM:** Data connections + ChatKit deploy (Session 4)
 **Day 2 AM:** Evals + optimization (Sessions 5–6)
 **Day 2 PM:** Guardrails + capstone launch (Sessions 7–8)
 
----
-
-## Suggested real-world tracks
-
-* **Support & CX:** deflection, policy lookup, tone guardrails, escalation.
-* **Sales/BD research:** firmographic digests, source citations, handoff to email template.
-* **Internal ops:** SOP search, ticket triage, exception handling with approvals.
-* **Education/L&D:** course FAQ assistant, skills check, content alignment to rubric.
 
 ---
 
-## Post-course success plan (30/60/90 days)
-
-* **30 days:** Run weekly evals, reduce average handle time by X%, add 1 new guardrail.
-* **60 days:** Expand connectors; run a targeted prompt-optimization cycle; widen pilot to 25 users.
-* **90 days:** Production rollout with clear SLAs; consider RFT pilot (through your dev team) if evals plateau. ([OpenAI][1])
-
----
 
 ### References (for your enablement team)
 
