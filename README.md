@@ -9,11 +9,11 @@
 
 ## One-line promise
 
-Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code usiong Spec-Driven Vibe-Coding methodology, shipping a real, instrumented agent in production.
+Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code using Spec-Driven Vibe-Coding methodology, shipping a real, instrumented agent in production.
 
 ## Who it’s for
 
-Developers, solution architects, and technical PMs who want to ship agentic applications quickly, then harden them with code, tests, and ops.
+Developers, solution architects, and technical PMs who want to ship agentic applications quickly, then harden them with code, tests, and ops using coding agents.
 
 ## Learning outcomes
 
@@ -40,12 +40,12 @@ By the end, learners can:
 10. **Full-Code Development** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
 11. **Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
-## Four learning tracks
+## Four learning levels
 
-* **Track A: Low-Code First** — build end-to-end in AgentKit, then add code “escape hatches.”
-* **Track B: Code-First** — start in Apps SDK, then import visual flows where helpful.
-* **Track C: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
-* **Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
+* **Level A: Low-Code First** — build end-to-end in AgentKit, then add code “escape hatches.”
+* **Level B: Code-First** — start in Apps SDK, then import visual flows where helpful.
+* **Level C: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
+* **Level D: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
 ## Capstone (2–3 weeks or final sprint)
 
