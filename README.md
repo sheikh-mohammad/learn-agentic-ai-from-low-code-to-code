@@ -6,63 +6,180 @@ Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Anee
 
 **Live YouTube Classes [@panaversity channel](https://www.youtube.com/@panaversity) on Wednesday and Thursday and 8:00 pm - 10:00 pm:** Class starting from Oct 15, 2025. Recording Also Available on [@Panaversity YouTube Channel](https://www.youtube.com/@panaversity)
 
-**Why this course:** Most teams can prototype agents; few can run them reliably in production. This course closes that gap—fast prototyping, then rigorous engineering.
+Here’s a practical, non-coding syllabus you can run as a 4-week cohort (8 x 2–3h sessions) or a 2-day intensive. It stays hands-on with AgentKit’s visual tools—no programming required.
 
-**You will learn:** workflow design, tool integration, memory/RAG, evaluation, spec-driven vibe-coding, safety, and production operations.
+## No-Code Agents with OpenAI AgentKit — Course Syllabus
 
-**You will build:** real agents, observable, testable, and deployable.
+## Course overview
 
-## One-line promise
+Build, test, and ship a production-ready AI agent using OpenAI’s new AgentKit—focusing on the visual Agent Builder, governance & guardrails, built-in evals, and one-click chat UI embedding with ChatKit. By the end, learners publish a working agent and a simple plan to measure impact and iterate. ([OpenAI][1])
 
-Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code using Spec-Driven Vibe-Coding methodology, shipping a real, instrumented agent in production.
+### Who it’s for
 
-## Who it’s for
+Non-programmers (product managers, ops, CX, HR/L&D, consultants, educators) who can define workflows and business outcomes, but don’t want to write code.
 
-Developers, solution architects, and technical PMs who want to ship agentic applications quickly, then harden them with code, tests, and ops using coding agents.
+### What you’ll build
+
+A capstone agent of your choice—for example:
+
+* Customer support triage & answer bot
+* Research & brief generator for sales/BD
+* Internal knowledge assistant (policies/SOPs)
+* Classroom co-teacher / onboarding guide
+
+---
 
 ## Learning outcomes
 
-By the end, learners can:
+By the end, participants can:
 
-1. Prototype agents visually
-2. Extend with custom tools in code
-3. Add memory/RAG & evals
-4. Enforce safety & observability
-5. Package, deploy, and monitor
-6. Build Production Agents using Full-Code using spec-driven vibe-coding methodology. 
+1. Describe core agent concepts (agents, tools, handoffs, sessions, guardrails) in plain language and map them to business workflows. ([OpenAI GitHub][2])
+2. Use **Agent Builder** to design multi-step workflows on a visual canvas, version them, and add approvals/guardrails without code. ([OpenAI][1])
+3. Connect knowledge safely (files/connectors) and set up the **Connector Registry** with admins. ([OpenAI][1])
+4. Deploy a branded chat experience with **ChatKit** and share it with test users. ([OpenAI][3])
+5. Measure and improve quality with **Evals** (datasets, trace grading, prompt optimization), and understand when to consider reinforcement fine-tuning. ([OpenAI][1])
+6. Apply **Guardrails** for safety (PII masking, jailbreak detection, hallucination checks) using the wizard and presets. ([OpenAI GitHub][4])
 
-## Syllabus
+---
 
-1. **Prompt and Context Engineering** see chapter 1
-2. **Agentic Foundations** — agent patterns, tools, planning, evals; set up envs. *Lab:* reproduce a simple task-automation agent.
-3. **Low-Code with AgentKit** — visual workflows, multi-agent orchestration, data IO. *Lab:* customer-support triage agent.
-4. **Apps SDK Basics (Code-First)** — project scaffolding, tool contracts, UI wiring. *Lab:* add a custom tool to call an external REST API.
-5. **Tools & Integrations** — auth patterns, rate limits, retries, streaming. *Lab:* build a data-fetch + transform tool (CSV → DB).
-6. **Memory & Retrieval** — ephemeral vs long-term memory; RAG pipelines; chunking & grounding. *Lab:* private knowledge assistant.
-7. **Evaluation & Safety** — task success metrics, regression suites, guardrails. *Lab:* write evals; catch prompt regressions.
-8. **Ops & Observability** — logging, traces, costs, latency; blue/green rollouts. *Lab:* instrument and dashboard your agent.
-9. **Packaging & Deployment** — Dockerization, config, CI; cloud deploy. *Lab:* deploy a minimal production stack.
-10. **Full-Code Development** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
-11. **Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
+## Format & pacing
 
-## Four learning levels
+* **4 weeks** · **2 sessions/week** · **2–3 hours/session** (+ optional office hours)
+* **Alt**: **2-day bootcamp** covering the same modules with condensed labs
+* Delivery: live workshop or flipped classroom (short videos + guided labs)
 
-* **Level A: Low-Code First** — build end-to-end in AgentKit, then add code “escape hatches.”
-* **Level B: Code-First** — start in Apps SDK, then import visual flows where helpful.
-* **Level C: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
-* **Level D: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
+---
 
-## Capstone Projects
+## Detailed schedule (cohort model)
 
-**“Agent-in-Production”**
-Build an agent that: (a) uses at least one external tool/API, (b) has memory/RAG, (c) includes evals + safety checks, and (d) ships with dashboards.
-**Rubric (100 pts):** correctness 25, reliability 20, UX 15, safety 15, observability 15, docs 10.
+### Week 1 — Foundations & first workflow
 
-## What students ship (portfolio)
+**Session 1: What is an “agent” (no code)? (2h)**
 
-* A working agent app repo (low-code + code)
-* Eval suite + safety policy
-* Deployed instance with logs/metrics
-* Short architecture readme
+* The AgentKit stack at a glance: Agent Builder (visual), Connector Registry (admin), ChatKit (UI), Evals (quality), Guardrails (safety).
+* Concepts in human terms: tasks, tools, multi-step flows, agent handoffs, memory/sessions.
+* Demo tour of Agent Builder: canvases, nodes, versions, templates; publish/preview lifecycle.
+  **Lab:** Clone a template, customize instructions, add an approval step, run test conversations. ([OpenAI][1])
 
+**Session 2: Connecting knowledge safely (2–3h)**
 
+* What to put in vs. link to; file search basics; connector options (e.g., Drive, SharePoint, Teams) and MCP servers.
+* Admin view of **Connector Registry**; roles & governance; enabling connectors for a workspace.
+* Data handling patterns: least-privilege, redaction, auditability.
+  **Lab:** Attach a small policy pack (PDFs/Docs), configure retrieval, and test relevance safely. ([OpenAI][1])
+
+### Week 2 — Designing, deploying, and branding the chat UI
+
+**Session 3: Visual design patterns (2–3h)**
+
+* Drag-and-drop nodes: tools, file search, guardrails, decision/branching, human-in-the-loop.
+* Multi-agent patterns via handoffs—when and why to split responsibilities.
+* Versioning & change logs; rollback and safe launches.
+  **Lab:** Build a 5–7 node workflow from a blank canvas; add a human approval and a fallback path. ([OpenAI][1])
+
+**Session 4: Deploy with ChatKit (2h)**
+
+* Shipping a usable interface without front-end work: embed options and theme/brand tweaks.
+* Sharing with pilot users; capturing transcripts and feedback for iteration.
+  **Lab:** Deploy your agent’s chat UI, set a custom name/avatar, and invite 3 pilot testers. ([OpenAI][3])
+
+### Week 3 — Quality: evaluate, observe, and iterate
+
+**Session 5: Evals you’ll actually use (2–3h)**
+
+* Designing a simple eval dataset from real tickets/prompts.
+* **Trace grading**: grading whole runs to spot brittle steps.
+* **Prompt optimization**: generate improved prompts from grader + human annotations.
+* Third-party model comparisons (what, why, when).
+  **Lab:** Create a 20-case eval, run it, and apply one optimization round. Re-run and compare. ([OpenAI][1])
+
+**Session 6: Observability & cost control (2h)**
+
+* Reading traces; identifying tool-call loops and dead ends.
+* Lightweight A/Bs: instruction tweaks and guardrail thresholds.
+* When RFT helps (conceptual only) and how to scope an RFT request with your tech team.
+  **Lab:** Use traces to remove one redundant step and reduce tokens/time per task. ([OpenAI][1])
+
+### Week 4 — Safety, governance, and capstone
+
+**Session 7: Guardrails & governance (2–3h)**
+
+* The **Guardrails Wizard**: select checks (moderation, jailbreak, PII, hallucinations) and set policies—no code.
+* Human approvals & audit trails; rollout controls and change management.
+  **Lab:** Add PII masking + jailbreak detection to your agent, document your policy, and re-test. ([OpenAI GitHub][4])
+
+**Session 8: Capstone build & publish (2–3h)**
+
+* Finalize workflow, run evals, harden guardrails, and polish the ChatKit UI.
+* Write a one-page “launch note”: scope, metrics, SLAs, rollback plan.
+  **Capstone demo:** 5-minute live run + Q&A; submit your Launch Note and a 14-day iteration plan.
+
+---
+
+## Assessments & deliverables
+
+* **Checkpoints (30%)**: Session labs (Builder, connectors, evals, guardrails).
+* **Capstone (50%)**: Working agent, embedded chat UI, eval results, safety config.
+* **Launch Note (20%)**: Clear goals, success metrics, and iteration plan.
+
+---
+
+## Tools & accounts (no coding needed)
+
+* **Agent Builder** (visual canvas, versioning, preview/publish)
+* **Connector Registry** (admin-managed app & data connections across orgs)
+* **ChatKit** (embedded chat UI with branding controls)
+* **Evals** (datasets, trace grading, prompt optimization, optional third-party models)
+* **Guardrails** (wizard + presets for PII/jailbreak/hallucination checks)
+  Availability: as of **Oct 6–8, 2025**, Agent Builder is in beta; ChatKit and new Evals features are generally available; Connector Registry is rolling out in beta via the Global Admin Console. All are included under standard API model pricing. ([OpenAI][1])
+
+---
+
+## Instructor prep & room setup
+
+* Learners need: laptop, browser, sample documents (FAQs, policies, SOPs), and access granted to AgentKit features in your org.
+* Create an org sandbox + test connectors; prepare three Builder templates per track (support, research, internal knowledge).
+
+---
+
+## Optional 2-day bootcamp agenda (condensed)
+
+**Day 1 AM:** Foundations + first workflow (Sessions 1–3)
+**Day 1 PM:** Data connections + ChatKit deploy (Session 4)
+**Day 2 AM:** Evals + optimization (Sessions 5–6)
+**Day 2 PM:** Guardrails + capstone launch (Sessions 7–8)
+
+---
+
+## Suggested real-world tracks
+
+* **Support & CX:** deflection, policy lookup, tone guardrails, escalation.
+* **Sales/BD research:** firmographic digests, source citations, handoff to email template.
+* **Internal ops:** SOP search, ticket triage, exception handling with approvals.
+* **Education/L&D:** course FAQ assistant, skills check, content alignment to rubric.
+
+---
+
+## Post-course success plan (30/60/90 days)
+
+* **30 days:** Run weekly evals, reduce average handle time by X%, add 1 new guardrail.
+* **60 days:** Expand connectors; run a targeted prompt-optimization cycle; widen pilot to 25 users.
+* **90 days:** Production rollout with clear SLAs; consider RFT pilot (through your dev team) if evals plateau. ([OpenAI][1])
+
+---
+
+### References (for your enablement team)
+
+* OpenAI **Introducing AgentKit** (features, availability, pricing). ([OpenAI][1])
+* OpenAI **Agent platform overview** (Builder, ChatKit, Evals). ([OpenAI][3])
+* **Agents SDK** docs (background on agents/handoffs/guardrails—used conceptually here). ([OpenAI GitHub][2])
+* **Guardrails** docs (wizard & presets). ([OpenAI GitHub][4])
+* Launch coverage & context. ([TechCrunch][5])
+
+If you want, I can tailor this to a specific audience (e.g., support orgs, schools, or consulting firms) and pre-fill the Builder templates for that track.
+
+[1]: https://openai.com/index/introducing-agentkit/ "Introducing AgentKit | OpenAI"
+[2]: https://openai.github.io/openai-agents-python/ "OpenAI Agents SDK"
+[3]: https://openai.com/agent-platform/ "API Agents | OpenAI"
+[4]: https://openai.github.io/openai-guardrails-python/ "OpenAI Guardrails Python"
+[5]: https://techcrunch.com/2025/10/06/openai-launches-agentkit-to-help-developers-build-and-ship-ai-agents/?utm_source=chatgpt.com "OpenAI launches AgentKit to help developers build and ship AI agents"
