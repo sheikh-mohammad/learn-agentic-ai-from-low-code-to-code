@@ -47,7 +47,7 @@ By the end, learners can:
 * **Level C: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
 * **Level D: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
-## Capstone (2–3 weeks or final sprint)
+## Capstone Projects
 
 **“Agent-in-Production”**
 Build an agent that: (a) uses at least one external tool/API, (b) has memory/RAG, (c) includes evals + safety checks, and (d) ships with dashboards.
