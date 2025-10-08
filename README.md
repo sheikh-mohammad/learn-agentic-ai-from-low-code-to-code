@@ -3,7 +3,7 @@
 
 **All Pakistan All Star Faculty:** Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar) and Rehan (Islamabad).
 
-**Live YouTube Classes on Wednesday and Thursday and 8:00 pm - 10:00 pm** Recording Also Available on YouTube 
+**Live YouTube Classes on Wednesday and Thursday and 8:00 pm - 10:00 pm:** Recording Also Available on YouTube 
 
 **Why this course:** Most teams can prototype agents; few can run them reliably in production. This course closes that gap—fast prototyping, then rigorous engineering.
 
