@@ -144,7 +144,7 @@ By the end, participants can:
 
 ---
 
-## Optional 2-day bootcamp agenda (condensed) to offered in Universities and Companies
+## Optional 2-day bootcamp agenda (condensed) to be offered in Universities and Companies
 
 **Day 1 AM:** Foundations + first workflow (Sessions 1–3)
 **Day 1 PM:** Data connections + ChatKit deploy (Session 4)
