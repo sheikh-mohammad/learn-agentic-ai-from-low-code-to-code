@@ -24,6 +24,7 @@ By the end, learners can:
 3. Add memory/RAG & evals
 4. Enforce safety & observability
 5. Package, deploy, and monitor
+6. Build Production Agents using Full-Code
 
 ## Syllabus
 
