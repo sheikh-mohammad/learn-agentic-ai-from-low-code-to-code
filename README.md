@@ -1,15 +1,15 @@
 # Learn Agentic AI: From Low-Code to Code
-*Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK and MCP*
+*Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP and Spec-Kit Plus*
 
 **Why this course:** Most teams can prototype agents; few can run them reliably in production. This course closes that gap—fast prototyping, then rigorous engineering.
 
-**You will learn:** workflow design, tool integration, memory/RAG, evaluation, safety, and production operations.
+**You will learn:** workflow design, tool integration, memory/RAG, evaluation, spec-driven vibe-coding, safety, and production operations.
 
-**You will build:** a real agent, observable, testable, and deployable.
+**You will build:** real agents, observable, testable, and deployable.
 
 ## One-line promise
 
-Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code shipping a real, instrumented agent in production.
+Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code usiong Spec-Driven Vibe-Coding methodology, shipping a real, instrumented agent in production.
 
 ## Who it’s for
 
@@ -24,7 +24,7 @@ By the end, learners can:
 3. Add memory/RAG & evals
 4. Enforce safety & observability
 5. Package, deploy, and monitor
-6. Build Production Agents using Full-Code
+6. Build Production Agents using Full-Code using spec-driven vibe-coding methodology. 
 
 ## Syllabus
 
@@ -38,12 +38,14 @@ By the end, learners can:
 8. **Ops & Observability** — logging, traces, costs, latency; blue/green rollouts. *Lab:* instrument and dashboard your agent.
 9. **Packaging & Deployment** — Dockerization, config, CI; cloud deploy. *Lab:* deploy a minimal production stack.
 10. **Full-Code Development** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
+11. **Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
-## Three learning tracks
+## Four learning tracks
 
 * **Track A: Low-Code First** — build end-to-end in AgentKit, then add code “escape hatches.”
 * **Track B: Code-First** — start in Apps SDK, then import visual flows where helpful.
 * **Track C: Full-Code** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
+* **Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
 ## Capstone (2–3 weeks or final sprint)
 
