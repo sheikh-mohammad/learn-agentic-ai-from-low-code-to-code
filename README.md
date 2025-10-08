@@ -9,7 +9,7 @@
 
 ## One-line promise
 
-Go from drag-and-drop agent flows to code-first apps, shipping a real, instrumented agent in production.
+Go from drag-and-drop agent flows to code-first apps, and finish with Full-Code shipping a real, instrumented agent in production.
 
 ## Who it’s for
 
