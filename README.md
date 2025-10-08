@@ -3,7 +3,7 @@
 
 This Free Course is Offered by: [Panaversity](https://panaversity.org/)
 
-**Register in this Course:** [Click to Register](https://panaversity.org/flagship-program/courses/AI-100)
+**Register in this Free Panaversity Course:** [Click to Register](https://panaversity.org/flagship-program/courses/AI-100)
 
 **All-Pakistan and All-Star Faculty:**
 Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Aneeq (Karachi), Hammad (Peshawar), Rehan (Islamabad) and Zia (Karachi).
