@@ -53,12 +53,6 @@ By the end, learners can:
 Build an agent that: (a) uses at least one external tool/API, (b) has memory/RAG, (c) includes evals + safety checks, and (d) ships with dashboards.
 **Rubric (100 pts):** correctness 25, reliability 20, UX 15, safety 15, observability 15, docs 10.
 
-## Assessment kit
-
-* 4 autograded labs (pass/fail + short reflections)
-* 1 midterm mini-project (tools + memory)
-* Final capstone demo with evaluator checklist
-
 ## What students ship (portfolio)
 
 * A working agent app repo (low-code + code)
