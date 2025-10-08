@@ -18,7 +18,7 @@ Build, test, and ship a production-ready AI agent using OpenAI’s new AgentKit�
 
 ### Who it’s for
 
-Non-programmers (product managers, ops, CX, HR/L&D, consultants, educators) who can define workflows and business outcomes, but don’t want to write code.
+Non-programmers (general managers, accountants, financial managers, product managers, ops, Customer Experience (CX), Human Resources / Learning & Development (HR/L&D), consultants, educators, everyone) who can define workflows and business outcomes, but don’t want to write code.
 
 ### What you’ll build
 
