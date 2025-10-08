@@ -8,7 +8,7 @@ Qasim (Karachi), Ameen (Saudi Arabia), Wania (Wah Cantt.), Junaid (Lahore), Anee
 
 **Live YouTube Classes [@panaversity channel](https://www.youtube.com/@panaversity) on Wednesday and Thursday and 8:00 pm - 10:00 pm:** Class starting from Oct 15, 2025. Recording Also Available on [@Panaversity YouTube Channel](https://www.youtube.com/@panaversity)
 
-Here’s a practical, non-coding syllabus you can run as a 4-week cohort (8 x 2–3h sessions) or a 2-day intensive. It stays hands-on with AgentKit’s visual tools—no programming required.
+Here’s a practical, non-coding syllabus which we are running as a 4-week cohort (8 x 2–3h sessions) or we will also offer it as a 2-day intensive in Companies and Universities. It stays hands-on with AgentKit’s visual tools—no programming required.
 
 ## No-Code Agents with OpenAI AgentKit — Course Syllabus
 
