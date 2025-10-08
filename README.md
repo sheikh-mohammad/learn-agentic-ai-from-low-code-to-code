@@ -1,5 +1,5 @@
 # Learn Agentic AI: From Low-Code to Code
-*Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP, AI CLIs, and Spec-Kit Plus*
+*Build production-grade agents with OpenAI AgentKit, the Apps SDK, Agents SDK, MCP, LLM CLIs, and Spec-Kit Plus*
 
 **Why this course:** Most teams can prototype agents; few can run them reliably in production. This course closes that gap—fast prototyping, then rigorous engineering.
 
