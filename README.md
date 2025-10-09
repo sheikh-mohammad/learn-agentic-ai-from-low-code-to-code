@@ -49,7 +49,7 @@ By the end, participants can:
 
 ## Format & pacing
 
-* **5 weeks** · **2 sessions/week** · **2–3 hours/session** (+ extra Question/Answer Sessions)
+* **6 weeks** · **2 sessions/week** · **2–3 hours/session** (+ extra Question/Answer Sessions)
 * **Alt**: **2-day bootcamp** covering the same modules with condensed labs to be offered in Companies and Universities
 * Delivery: live workshop or flipped classroom (short videos + guided labs)
 
