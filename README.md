@@ -37,18 +37,19 @@ A capstone agent of your choice—for example:
 
 By the end, participants can:
 
-1. Describe core agent concepts (agents, tools, handoffs, sessions, guardrails) in plain language and map them to business workflows. ([OpenAI GitHub][2])
-2. Use **Agent Builder** to design multi-step workflows on a visual canvas, version them, and add approvals/guardrails without code. ([OpenAI][1])
-3. Connect knowledge safely (files/connectors) and set up the **Connector Registry** with admins. ([OpenAI][1])
-4. Deploy a branded chat experience with **ChatKit** and share it with test users. ([OpenAI][3])
-5. Measure and improve quality with **Evals** (datasets, trace grading, prompt optimization), and understand when to consider reinforcement fine-tuning. ([OpenAI][1])
-6. Apply **Guardrails** for safety (PII masking, jailbreak detection, hallucination checks) using the wizard and presets. ([OpenAI GitHub][4])
+1. Understand the concepts of Agentic Web and Agentic Organizations
+2. Describe core agent concepts (agents, tools, handoffs, sessions, guardrails) in plain language and map them to business workflows. ([OpenAI GitHub][2])
+3. Use **Agent Builder** to design multi-step workflows on a visual canvas, version them, and add approvals/guardrails without code. ([OpenAI][1])
+4. Connect knowledge safely (files/connectors) and set up the **Connector Registry** with admins. ([OpenAI][1])
+5. Deploy a branded chat experience with **ChatKit** and share it with test users. ([OpenAI][3])
+6. Measure and improve quality with **Evals** (datasets, trace grading, prompt optimization), and understand when to consider reinforcement fine-tuning. ([OpenAI][1])
+7. Apply **Guardrails** for safety (PII masking, jailbreak detection, hallucination checks) using the wizard and presets. ([OpenAI GitHub][4])
 
 ---
 
 ## Format & pacing
 
-* **4 weeks** · **2 sessions/week** · **2–3 hours/session** (+ extra Question/Answer Sessions)
+* **5 weeks** · **2 sessions/week** · **2–3 hours/session** (+ extra Question/Answer Sessions)
 * **Alt**: **2-day bootcamp** covering the same modules with condensed labs to be offered in Companies and Universities
 * Delivery: live workshop or flipped classroom (short videos + guided labs)
 
