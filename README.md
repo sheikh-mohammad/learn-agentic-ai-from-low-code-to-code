@@ -70,6 +70,7 @@ By the end, participants can:
 * The AgentKit stack at a glance: Agent Builder (visual), Connector Registry (admin), ChatKit (UI), Evals (quality), Guardrails (safety).
 * Concepts in human terms: tasks, tools, multi-step flows, agent handoffs, memory/sessions.
 * Demo tour of Agent Builder: canvases, nodes, versions, templates; publish/preview lifecycle.
+  
   **Lab:** Clone a template, customize instructions, add an approval step, run test conversations. ([OpenAI][1])
 
 **Session 2: Connecting knowledge safely (2–3h)**
@@ -77,6 +78,7 @@ By the end, participants can:
 * What to put in vs. link to; file search basics; connector options (e.g., Drive, SharePoint, Teams) and MCP servers.
 * Admin view of **Connector Registry**; roles & governance; enabling connectors for a workspace.
 * Data handling patterns: least-privilege, redaction, auditability.
+  
   **Lab:** Attach a small policy pack (PDFs/Docs), configure retrieval, and test relevance safely. ([OpenAI][1])
 
 ### Week 3 — Designing, deploying, and branding the chat UI
@@ -86,12 +88,14 @@ By the end, participants can:
 * Drag-and-drop nodes: tools, file search, guardrails, decision/branching, human-in-the-loop.
 * Multi-agent patterns via handoffs—when and why to split responsibilities.
 * Versioning & change logs; rollback and safe launches.
+  
   **Lab:** Build a 5–7 node workflow from a blank canvas; add a human approval and a fallback path. ([OpenAI][1])
 
 **Session 4: Deploy with ChatKit (2h)**
 
 * Shipping a usable interface without front-end work: embed options and theme/brand tweaks.
 * Sharing with pilot users; capturing transcripts and feedback for iteration.
+  
   **Lab:** Deploy your agent’s chat UI, set a custom name/avatar, and invite 3 pilot testers. ([OpenAI][3])
 
 ### Week 4 — Quality: evaluate, observe, and iterate
@@ -102,6 +106,7 @@ By the end, participants can:
 * **Trace grading**: grading whole runs to spot brittle steps.
 * **Prompt optimization**: generate improved prompts from grader + human annotations.
 * Third-party model comparisons (what, why, when).
+  
   **Lab:** Create a 20-case eval, run it, and apply one optimization round. Re-run and compare. ([OpenAI][1])
 
 **Session 6: Observability & cost control (2h)**
@@ -109,6 +114,7 @@ By the end, participants can:
 * Reading traces; identifying tool-call loops and dead ends.
 * Lightweight A/Bs: instruction tweaks and guardrail thresholds.
 * When RFT helps (conceptual only) and how to scope an RFT request with your tech team.
+  
   **Lab:** Use traces to remove one redundant step and reduce tokens/time per task. ([OpenAI][1])
 
 ### Week 5 — Safety, governance, and capstone
@@ -117,12 +123,14 @@ By the end, participants can:
 
 * The **Guardrails Wizard**: select checks (moderation, jailbreak, PII, hallucinations) and set policies—no code.
 * Human approvals & audit trails; rollout controls and change management.
+  
   **Lab:** Add PII masking + jailbreak detection to your agent, document your policy, and re-test. ([OpenAI GitHub][4])
 
 **Session 8: Capstone build & publish (2–3h)**
 
 * Finalize workflow, run evals, harden guardrails, and polish the ChatKit UI.
 * Write a one-page “launch note”: scope, metrics, SLAs, rollback plan.
+  
   **Capstone demo:** 5-minute live run + Q&A; submit your Launch Note and a 14-day iteration plan.
 
 ---
@@ -165,12 +173,12 @@ By the end, participants can:
 
 ## Four learning levels
 
-After completing this course (Level 1) you will be at Level 1, after that you will be ready for Levels 2, 3, and 4.
+After completing this course (Level 1) you will be at Learning Level 1, after that you will be ready for Levels 2, 3, and 4.
 
-* **Level 1: No-Code Agent Development** — build end-to-end in AgentKit (This Course)
-* **Level 2: Code-First Chat GPT Apps SDK** — [Learn Python](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab) and start in Apps SDK, then import visual flows where helpful (This course will be offered by Panaversity later). 
-* **Level 3: Full-Code Agents SDK** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
-* **Level 4: Full-Code AI Assisted: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
+* **Learning Level 1: No-Code Agent Development** — build end-to-end in AgentKit (This Course)
+* **Learning Level 2: Code-First Chat GPT Apps SDK** — [Learn Python](https://github.com/panaversity/learn-modern-ai-python/tree/main/00_python_colab) and start in Apps SDK, then import visual flows where helpful (This course will be offered by Panaversity later). 
+* **Learning Level 3: Full-Code Agents SDK** - [Learn Agentic AI using OpenAI Agents SDK and MCP](https://github.com/panaversity/learn-agentic-ai)
+* **Learning Level 4: Full-Code AI Assisted: Spec-Driven Vibe-Coding** - [Spec-Kit Plus](https://github.com/panaversity/spec-kit-plus)
 
 
 ---
