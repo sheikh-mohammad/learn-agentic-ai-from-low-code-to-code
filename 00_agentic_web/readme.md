@@ -39,5 +39,5 @@ Nevertheless, OpenAI's recent announcements are a clear indication of its ambiti
 
 An analytical article exploring OpenAI's vision for the future, offering insight into how these tools signal a broader shift in web and AI infrastructure.
 
-**![OpenAI’s Blueprint to Power the Future Web
+**[OpenAI’s Blueprint to Power the Future Web
 with AI](OpenAI’s%20Blueprint%20to%20Power%20the%20Future%20Web%20with%20AI.pdf)**
