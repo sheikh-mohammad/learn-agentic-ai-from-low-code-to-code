@@ -58,9 +58,9 @@ By the end, participants can:
 
 ### Week 1 — Agentic Web and Organizations 
 
-**Session 1: ![Agentic Web](./00_agentic_web/readme.md) (2h)**
+**Session 1: [Agentic Web](./00_agentic_web/readme.md) (2h)**
 
-**Session 2: ![Agentic Organizations](./01_agentic_org/readme.md) (2h)**
+**Session 2: [Agentic Organizations](./01_agentic_org/readme.md) (2h)**
 
 ### Week 2 — Foundations & first workflow
 
