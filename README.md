@@ -54,9 +54,15 @@ By the end, participants can:
 
 ---
 
-## Detailed schedule (cohort model)
+## Detailed Schedule
 
-### Week 1 — Foundations & first workflow
+### Week 1 — Agentic Web and Organizations 
+
+**Session 1: ![Agentic Web](./00_agentic_web/readme.md) (2h)**
+
+**Session 2: ![Agentic Organizations](./01_agentic_org/readme.md) (2h)**
+
+### Week 2 — Foundations & first workflow
 
 **Session 1: What is an “agent” (no code)? (2h)**
 
@@ -72,7 +78,7 @@ By the end, participants can:
 * Data handling patterns: least-privilege, redaction, auditability.
   **Lab:** Attach a small policy pack (PDFs/Docs), configure retrieval, and test relevance safely. ([OpenAI][1])
 
-### Week 2 — Designing, deploying, and branding the chat UI
+### Week 3 — Designing, deploying, and branding the chat UI
 
 **Session 3: Visual design patterns (2–3h)**
 
@@ -87,7 +93,7 @@ By the end, participants can:
 * Sharing with pilot users; capturing transcripts and feedback for iteration.
   **Lab:** Deploy your agent’s chat UI, set a custom name/avatar, and invite 3 pilot testers. ([OpenAI][3])
 
-### Week 3 — Quality: evaluate, observe, and iterate
+### Week 4 — Quality: evaluate, observe, and iterate
 
 **Session 5: Evals you’ll actually use (2–3h)**
 
@@ -104,7 +110,7 @@ By the end, participants can:
 * When RFT helps (conceptual only) and how to scope an RFT request with your tech team.
   **Lab:** Use traces to remove one redundant step and reduce tokens/time per task. ([OpenAI][1])
 
-### Week 4 — Safety, governance, and capstone
+### Week 5 — Safety, governance, and capstone
 
 **Session 7: Guardrails & governance (2–3h)**
 
