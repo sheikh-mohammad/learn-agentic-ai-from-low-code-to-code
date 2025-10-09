@@ -1,5 +1,7 @@
 ## OpenAI's Latest Moves Signal a Paradigm Shift Towards a New, Agent-Driven Web
 
+[OpenAI has now done $1 trillion of computing deals this year](https://finance.yahoo.com/news/openai-now-done-1-trillion-225429595.html)
+
 **San Francisco, CA** - OpenAI's recent flurry of announcements, including the introduction of "Agent Kit" and an "App SDK," has ignited speculation that the artificial intelligence leader is not just building new tools, but laying the groundwork for a fundamentally new era of the internet. This vision points towards a "post-app" web where intelligent agents, rather than traditional websites and applications, become the primary way users interact with the digital world.
 
 The core of this shift lies in two key releases unveiled at OpenAI's recent DevDay conference:
