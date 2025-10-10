@@ -10,7 +10,7 @@
 * **U.S. adoption:** **34% of U.S. adults have used ChatGPT** (Pew, June 2025). 
 * **ChatGPT Plus subscribers:** Reported **~15.5M** by end of 2024.
 * **Market share (AI chatbots, web traffic):** **~81%** worldwide in Sept 2025 (Statcounter). 
-* **Revenue run-rate:** **~$12B annualized** as of late July 2025 (≈**$1B/month**).
+* **Revenue run-rate:** **~$12B annualized** as of late July 2025.
 * **Valuation:** **~$500B** after an Oct 2025 secondary share sale—**now the world’s most valuable startup**.
 * **Enterprise footprint:** Over **1M+ paying business users** reported in 2024; continued enterprise focus and new partnerships through 2025.
 * **Infrastructure deals:** OpenAI’s compute partnerships with Nvidia, AMD, Oracle (and others) [**“could easily top $1T”**](https://finance.yahoo.com/news/openai-now-done-1-trillion-225429595.html).
