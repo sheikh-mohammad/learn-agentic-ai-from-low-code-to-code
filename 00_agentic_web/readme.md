@@ -7,7 +7,7 @@
 
 * **Weekly active ChatGPT users:** ~**800 million**
 * **Messages handled:** **~2.5B per day** (≈29k/sec) as of July 2025.
-* **U.S. adoption:** **34% of U.S. adults have used ChatGPT** (Pew, June 2025). This is a better-sourced metric than “67.7M U.S. users”. ([Pew Research Center][3])
+* **U.S. adoption:** **34% of U.S. adults have used ChatGPT** (Pew, June 2025). 
 * **ChatGPT Plus subscribers:** Reported **~15.5M** by end of 2024.
 * **Market share (AI chatbots, web traffic):** **~81%** worldwide in Sept 2025 (Statcounter). 
 * **Revenue run-rate:** **~$12B annualized** as of late July 2025 (≈**$1B/month**).
