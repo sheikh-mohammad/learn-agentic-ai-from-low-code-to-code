@@ -29,7 +29,7 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 * **Invest in people:** Build AI literacy and reskilling programs so teams can work effectively with AI systems.
 * **Collaborate across sectors:** Government, industry, and academia should coordinate standards and best practices to steer the transition.
 
-
+---
 
 ## Key ChatGPT / OpenAI Stats (Latest)
 
