@@ -1,7 +1,31 @@
 ## OpenAI's Latest Moves Signal a Paradigm Shift Towards a New, Agent-Driven Web
 
-[OpenAI has now done $1 trillion of computing deals this year](https://finance.yahoo.com/news/openai-now-done-1-trillion-225429595.html)
 
+## Key ChatGPT / OpenAI Stats (Latest)
+
+![](openai_chatgpt_user_growth.png)
+
+* **Weekly active ChatGPT users:** ~**800 million**
+* **Messages handled:** **~2.5B per day** (≈29k/sec) as of July 2025.
+* **U.S. adoption:** **34% of U.S. adults have used ChatGPT** (Pew, June 2025). This is a better-sourced metric than “67.7M U.S. users”. ([Pew Research Center][3])
+* **ChatGPT Plus subscribers:** Reported **~15.5M** by end of 2024.
+* **Market share (AI chatbots, web traffic):** **~81%** worldwide in Sept 2025 (Statcounter). 
+* **Revenue run-rate:** **~$12B annualized** as of late July 2025 (≈**$1B/month**).
+* **Valuation:** **~$500B** after an Oct 2025 secondary share sale—**now the world’s most valuable startup**.
+* **Enterprise footprint:** Over **1M+ paying business users** reported in 2024; continued enterprise focus and new partnerships through 2025.
+* **Infrastructure deals:** OpenAI’s compute partnerships with Nvidia, AMD, Oracle (and others) [**“could easily top $1T”**](https://finance.yahoo.com/news/openai-now-done-1-trillion-225429595.html).
+
+---
+## [AI capabilities have steadily improved over the past year](https://epoch.ai/data-insights/ai-capabilities-over-past-year)
+
+Across benchmarks measuring skills in research-level math, agentic coding, visual understanding, common sense reasoning, and more, AI capabilities have grown rapidly and consistently over the last 12 months.
+
+![](ai-capabilities-over-past-year.png)
+
+While these benchmarks do not capture all of the nuanced abilities needed for economically valuable tasks, the clear upward trends reflect genuine improvements in AI’s utility. This growth in capabilities shows no sign of slowing down.
+
+
+---
 **San Francisco, CA** - OpenAI's recent flurry of announcements, including the introduction of "Agent Kit" and an "App SDK," has ignited speculation that the artificial intelligence leader is not just building new tools, but laying the groundwork for a fundamentally new era of the internet. This vision points towards a "post-app" web where intelligent agents, rather than traditional websites and applications, become the primary way users interact with the digital world.
 
 The core of this shift lies in two key releases unveiled at OpenAI's recent DevDay conference:
