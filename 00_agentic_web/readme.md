@@ -47,6 +47,45 @@ The launch of integrated third-party apps marks a shift from earlier efforts lik
 **Overall**: ChatGPT is shifting from a single assistant to a platform where third-party, interactive apps live directly inside the chat.
 
 ---
+
+## [Could ChatGPT Become The Next Big Browser?](https://www.forbes.com/sites/anishasircar/2025/10/10/openai-dev-day-2025-could-chatgpt-become-the-next-big-browser/)
+
+Here’s a crisp summary of the Forbes piece (Oct 10, 2025):
+
+# Big idea
+
+OpenAI wants ChatGPT to act like a **browser/OS hybrid**—a single conversational place where **apps, agents, and content live together** in one thread.
+
+# What’s launching
+
+* **Apps SDK:** Developers can embed **interactive apps inside ChatGPT**. Launch partners include **Canva, Figma, Spotify, Coursera, Zillow**—so you can design, learn, listen, or browse listings without leaving the chat.
+* **AgentKit:** A **drag-and-drop workflow builder** (plus Python) to create goal-oriented agents that call APIs, tie into enterprise systems, ship embeddable chat components, and run **evaluation** for agent accuracy. Think Zapier/Lindy-style tooling **inside** ChatGPT.
+* **Model access:** Expanded APIs for **GPT-5 Pro** (reasoning) and **Sora 2** (video); **GPT-5 Codex** is GA with **Slack integrations** and enterprise controls.
+
+# Why it matters
+
+* Positions OpenAI as both **consumer platform** and **developer ecosystem**—roles akin to iOS/Android, but **conversation replaces clicks**.
+* Could consolidate fragmented user flows (brainstorm → design → check licensing → share) **inside one chat**.
+* If it sticks, ChatGPT becomes a **new gateway to the web**, shifting discovery, commerce, and UI patterns from pages/tabs to **threads/prompts**.
+
+# Friction & risks the article flags
+
+* **Control & gatekeeping:** OpenAI sits between users and the web; raises **privacy, interoperability, and platform power** concerns.
+* **Security & data handling:** Third-party apps/agents inside chat introduce **new privacy risks**; trust and review processes are critical.
+* **Lock-in for devs:** Policies/monetization could constrain developers—echoes of mobile app stores.
+* **Regulatory heat:** A “gatekeeper” conversational platform may face **DMA-style scrutiny**.
+* **Adoption unknowns:** People may not want to **live entirely** in ChatGPT; earlier “custom GPTs” fizzled.
+* **Competitive pressure:** OpenAI courts developers while **Google, Anthropic, Amazon** vie for them; **Meta/DeepSeek** push strong **open-source** options.
+
+# Notable quotes/stance
+
+* **Nick Turley (ChatGPT product):** “We **never meant to build a chatbot**; we meant to build a **super assistant**.” He doesn’t expect users to spend all day in ChatGPT—more like **start in ChatGPT, then branch to apps/sites**.
+
+# Bottom line
+
+Dev Day 2025 is OpenAI’s bid to own the **next interface of the internet**. If successful, **apps move from tabs to threads**, and “search” evolves into **conversation**—but questions about **openness, privacy, and platform control** are just beginning.
+
+---
 **San Francisco, CA** - OpenAI's recent flurry of announcements, including the introduction of "Agent Kit" and an "App SDK," has ignited speculation that the artificial intelligence leader is not just building new tools, but laying the groundwork for a fundamentally new era of the internet. This vision points towards a "post-app" web where intelligent agents, rather than traditional websites and applications, become the primary way users interact with the digital world.
 
 The core of this shift lies in two key releases unveiled at OpenAI's recent DevDay conference:
