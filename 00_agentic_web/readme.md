@@ -24,6 +24,25 @@ Across benchmarks measuring skills in research-level math, agentic coding, visua
 
 While these benchmarks do not capture all of the nuanced abilities needed for economically valuable tasks, the clear upward trends reflect genuine improvements in AI’s utility. This growth in capabilities shows no sign of slowing down.
 
+---
+
+## [OpenAI’s Nick Turley on transforming ChatGPT into an operating system](https://techcrunch.com/2025/10/08/openais-nick-turley-on-transforming-chatgpt-into-an-operating-system/)
+
+### Summary of the Article: OpenAI’s Nick Turley on Transforming ChatGPT into an Operating System
+
+Nick Turley, who joined OpenAI in 2022 as head of ChatGPT, has overseen its growth to 800 million weekly active users. In an interview at OpenAI's developer conference, he outlined a vision to evolve ChatGPT from a basic conversational tool—likened to the "command line era"—into a comprehensive operating system-like platform. This would integrate third-party apps, similar to how web browsers host web applications, allowing users to access specialized services for tasks like productivity, coding, or e-commerce without OpenAI building everything itself.
+
+#### Key Vision and Strategy
+- **Platform Ecosystem**: ChatGPT would act as a central hub, partnering with companies like Expedia, DoorDash, and Uber to enable seamless interactions, such as booking travel or ordering food. It aims to foster innovative apps that leverage AI's conversational capabilities, much like mobile platforms enabled services like ride-sharing.
+- **Broader Integration**: The platform would unify OpenAI's products (e.g., productivity tools, video generation with Sora) through user accounts, personalization, and identity features. Future expansions could include social media and hardware, with rumors of an OpenAI browser and collaborations on AI devices.
+- **Mission Alignment**: Turley sees ChatGPT as a direct vehicle for OpenAI's goal of beneficial AGI, helping users worldwide with real-world applications, from coding education to social support for autistic children.
+
+#### Challenges and Solutions
+- **App Distribution and Promotion**: OpenAI is addressing how to promote apps, potentially allowing paid priority but prioritizing user experience and relevance. For competing apps (e.g., multiple food delivery options), it would show choices, use preferences, or seek user input.
+- **Privacy and Data**: Developers must minimize data collection and disclose requests, with app reviews for compliance. Upcoming features include "partitioned memory" to separate conversation topics (e.g., health vs. entertainment) and user controls inspired by Apple's model for selective data sharing.
+
+#### Recent Developments and Future Plans
+The launch of integrated third-party apps marks a shift from earlier efforts like plugins and the GPT Store, which saw limited adoption. These apps enable interactive experiences and revenue opportunities, positioning ChatGPT as an e-commerce hub. OpenAI plans to refine these through developer feedback, roll out privacy enhancements soon, and expand into new categories while drawing lessons from tech history to drive innovation.
 
 ---
 **San Francisco, CA** - OpenAI's recent flurry of announcements, including the introduction of "Agent Kit" and an "App SDK," has ignited speculation that the artificial intelligence leader is not just building new tools, but laying the groundwork for a fundamentally new era of the internet. This vision points towards a "post-app" web where intelligent agents, rather than traditional websites and applications, become the primary way users interact with the digital world.
