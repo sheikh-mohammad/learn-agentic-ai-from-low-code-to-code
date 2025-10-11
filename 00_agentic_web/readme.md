@@ -53,6 +53,11 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 * **Enterprise footprint:** Over **1M+ paying business users** reported in 2024; continued enterprise focus and new partnerships through 2025.
 * **Infrastructure deals:** OpenAI’s compute partnerships with Nvidia, AMD, Oracle (and others) [**“could easily top $1T”**](https://finance.yahoo.com/news/openai-now-done-1-trillion-225429595.html).
 
+
+<img src="openais-trillion-dollar-web.webp" alt="drawing" width="400"/>
+
+<img src="openais-trillion-dollar-web2.webp" alt="drawing" width="400"/>
+
 ---
 ## [AI capabilities have steadily improved over the past year](https://epoch.ai/data-insights/ai-capabilities-over-past-year)
 
