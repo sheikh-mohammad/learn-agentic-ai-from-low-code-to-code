@@ -1,6 +1,6 @@
 ## OpenAI's Latest Moves Signal a Paradigm Shift Towards a New, Agent-Driven Web
 
-![](./growth.jpg)
+<img src="growth.jpg" alt="drawing" width="300"/>
 
 ChatGPT has reached 800 million users in just two years, a milestone that took the internet 13 years to reach. 
 The data, highlighted by the Financial Times and confirmed by Sam Altman, marks the fastest technology adoption curve in history. 
@@ -41,7 +41,7 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 
 ## Key ChatGPT / OpenAI Stats (Latest)
 
-![](openai_chatgpt_user_growth.png)
+<img src="openai_chatgpt_user_growth.png" alt="drawing" width="300"/>
 
 * **Weekly active ChatGPT users:** ~**800 million**
 * **Messages handled:** **~2.5B per day** (≈29k/sec) as of July 2025.
@@ -58,7 +58,7 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 
 Across benchmarks measuring skills in research-level math, agentic coding, visual understanding, common sense reasoning, and more, AI capabilities have grown rapidly and consistently over the last 12 months.
 
-![](ai-capabilities-over-past-year.png)
+<img src="ai-capabilities-over-past-year.png" alt="drawing" width="300"/>
 
 While these benchmarks do not capture all of the nuanced abilities needed for economically valuable tasks, the clear upward trends reflect genuine improvements in AI’s utility. This growth in capabilities shows no sign of slowing down.
 
