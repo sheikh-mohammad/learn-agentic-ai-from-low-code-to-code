@@ -41,7 +41,7 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 
 ## Key ChatGPT / OpenAI Stats (Latest)
 
-<img src="openai_chatgpt_user_growth.png" alt="drawing" width="400"/>
+<img src="openai_chatgpt_user_growth.png" alt="drawing" width="600"/>
 
 * **Weekly active ChatGPT users:** ~**800 million**
 * **Messages handled:** **~2.5B per day** (≈29k/sec) as of July 2025.
@@ -58,7 +58,7 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 
 Across benchmarks measuring skills in research-level math, agentic coding, visual understanding, common sense reasoning, and more, AI capabilities have grown rapidly and consistently over the last 12 months.
 
-<img src="ai-capabilities-over-past-year.png" alt="drawing" width="400"/>
+<img src="ai-capabilities-over-past-year.png" alt="drawing" width="600"/>
 
 While these benchmarks do not capture all of the nuanced abilities needed for economically valuable tasks, the clear upward trends reflect genuine improvements in AI’s utility. This growth in capabilities shows no sign of slowing down.
 
