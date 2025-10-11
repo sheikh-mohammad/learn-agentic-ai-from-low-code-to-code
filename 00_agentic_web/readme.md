@@ -1,5 +1,11 @@
 ## OpenAI's Latest Moves Signal a Paradigm Shift Towards a New, Agent-Driven Web
 
+![](./growth.jpg)
+
+ChatGPT has reached 800 million users in just two years, a milestone that took the internet 13 years to reach. 
+The data, highlighted by the Financial Times and confirmed by Sam Altman, marks the fastest technology adoption curve in history. 
+Source: Financial Times
+
 AI is humanity’s *next great transformation*—the fourth big technological era after steam, electricity, and digital computing. AI will massively **augment** human capability, **re-wire industries**, and **disrupt** jobs and geopolitics—so leaders must pair rapid adoption with strong governance, cybersecurity, and workforce upskilling.
 
 **Big idea:** We’re entering the “age of AI,” characterized by global *augmentation, collaboration, and disruption*—AI as a force-multiplier for people and organizations rather than a simple automation tool.
