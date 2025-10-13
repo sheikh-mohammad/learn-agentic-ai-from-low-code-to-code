@@ -2,7 +2,7 @@
 
 This tutorial covers the material presented in this video [Context Engineering Clearly Explained](https://www.youtube.com/watch?v=jLuwLJBQkIs)
 
-[Adv: Context Engineering Library](https://github.com/coleam00/context-engineering-intro)
+[Adv: Context Engineering Template](https://github.com/coleam00/context-engineering-intro)
 
 ## Table of Contents
 1. [What is Context Engineering?](#what-is-context-engineering)

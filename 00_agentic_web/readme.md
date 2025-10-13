@@ -53,6 +53,19 @@ AI's influence permeates everyday life—powering smartphone features, recommend
 * **Enterprise footprint:** Over **1M+ paying business users** reported in 2024; continued enterprise focus and new partnerships through 2025.
 * **Infrastructure deals:** OpenAI’s compute partnerships with Nvidia, AMD, Oracle (and others) [**“could easily top $1T”**](https://finance.yahoo.com/news/openai-now-done-1-trillion-225429595.html).
 
+OpenAI has locked in a series of massive, multi-billion-dollar partnerships:
+
+1. U.S. Government (Project Stargate) — $500 B
+2. Nvidia — $100 B
+3. AMD — up to $100 B
+4. Intel — $25 B
+5. TSMC — $20 B
+6. Microsoft — $13 B
+7. Oracle — $10 B
+8. Broadcom — multi-billion
+
+At this pace, OpenAI’s valuation could top $1 trillion by 2026.
+
 ## Trillion-Dollar AI Game
 
 At the heart of this trillion-dollar game is OpenAI, the $500 billion behemoth that has become become the ringmaster. 
