@@ -62,7 +62,7 @@ OpenAI has locked in a series of massive, multi-billion-dollar partnerships:
 5. TSMC — $20 B
 6. Microsoft — $13 B
 7. Oracle — $10 B
-8. Broadcom — multi-billion
+8. Broadcom — $ 10 B
 
 At this pace, OpenAI’s valuation could top $1 trillion by 2026.
 
