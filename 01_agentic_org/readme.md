@@ -1,8 +1,14 @@
 # The Rise of Agentic Organizations: How AI Is Redefining the Future of Work and Business
 
-Here’s a plain-English executive summary of McKinsey’s article “The Agentic Organization: Contours of the Next Paradigm for the AI Era,” aimed at readers without a business or tech background:
+**[Detailed Reading Material: The agentic Organization: Contours of the next paradigm for the AI era](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era)**
 
-[The agentic organization: Contours of the next paradigm for the AI era](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era)
+Supplementary Learning Material:
+
+**[The Agentic Organization: A Learning Guide to the Future of Business](panaversity-openai-vision-guide.md)**
+
+**[Taking a Self-Assessment Quiz](./quiz.md)**
+
+**[Taking a Self-Assessment Graduate Quiz](./graduate_level_quiz.md)**
 
 ---
 
