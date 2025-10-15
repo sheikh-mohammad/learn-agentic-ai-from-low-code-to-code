@@ -68,7 +68,7 @@ At this pace, OpenAI’s valuation could top $1 trillion by 2026.
 
 ## Trillion-Dollar AI Game
 
-At the heart of this trillion-dollar game is OpenAI, the $500 billion behemoth that has become become the ringmaster. 
+At the heart of this trillion-dollar game is OpenAI, the $500 billion behemoth that has become the ringmaster. 
 
 <img src="openais-trillion-dollar-web.webp" alt="drawing" width="400"/>
 
