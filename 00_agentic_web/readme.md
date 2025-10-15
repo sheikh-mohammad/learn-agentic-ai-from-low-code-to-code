@@ -1,5 +1,16 @@
 ## OpenAI's Latest Moves Signal a Paradigm Shift Towards a New, Agent-Driven Web
 
+**[Detailed Reading Material: OpenAI’s Blueprint to Power the Future Web with AI](./OpenAI’s%20Blueprint%20to%20Power%20the%20Future%20Web%20with%20AI.pdf)**
+
+Supplementary Learning Material:
+
+**[OpenAI's Vision for an AI-Driven Future Learning Guide](panaversity-openai-vision-guide.md)**
+
+**[Taking a Self-Assessment Quiz](./quiz.md)**
+
+
+
+
 <img src="growth.jpg" alt="drawing" width="400"/>
 
 ChatGPT has reached 800 million users in just two years, a milestone that took the internet 13 years to reach. 
