@@ -1688,6 +1688,8 @@ This framework balances competing interests: users get protection without stifli
 
 ## Chapter 5: Looking to the Future
 
+![](./looking_into_future.png)
+
 ### 5.1 Brief Theory Introduction
 
 Predicting technological futures is inherently uncertain, but we can identify plausible scenarios and the factors that might determine which unfolds. This helps us prepare for multiple possibilities rather than betting everything on one vision.
