@@ -1455,7 +1455,9 @@ OpenAI handles 2.5 billion messages daily from 800 million weekly users. Analyze
 Consider this dilemma: An AI platform that aggregates all your digital services (email, calendar, finance, health, shopping) can provide incredibly useful assistance by having complete context about your life. However, this also means trusting one company with all your most sensitive data. Evaluate whether the convenience benefits justify the privacy risks. What safeguards would make you comfortable with this level of integration?
 
 **Practice Problem 12 (Creating):**  
-Design a governance framework for OpenAI's ChatGPT app ecosystem that balances multiple objectives: user safety, developer opportunity, innovation velocity, privacy protection, and platform sustainability. Your framework should specify review processes, policies, enforcement mechanisms, and dispute resolution procedures.### Chapter 4 Answers
+Design a governance framework for OpenAI's ChatGPT app ecosystem that balances multiple objectives: user safety, developer opportunity, innovation velocity, privacy protection, and platform sustainability. Your framework should specify review processes, policies, enforcement mechanisms, and dispute resolution procedures.  
+
+### Chapter 4 Answers  
 
 **Practice Problem 10:**  
 Privacy challenges with 2.5 billion daily messages:
