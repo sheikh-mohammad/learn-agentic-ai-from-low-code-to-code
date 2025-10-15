@@ -596,7 +596,7 @@ When analyzing technological change, we examine impacts on:
 3. **Businesses** (How must companies adapt their strategies?)
 4. **Society** (What broader economic and social effects occur?)
 
-## Introduction: The Shopping Mall Analogy
+### Introduction: The Shopping Mall Analogy
 
 **Think about shopping in 1990 vs. today:**
 
