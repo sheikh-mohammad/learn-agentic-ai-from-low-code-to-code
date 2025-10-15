@@ -786,3 +786,9 @@ D) Massive infrastructure investment is essential to becoming a core provider
 58. D
 59. D
 60. D
+
+## Scoring Guide
+- 55-60 correct: Excellent understanding of agentic web concepts
+- 50-56 correct: Good grasp of the material
+- 45-49 correct: Satisfactory comprehension
+- Below 45: Review the material and retake the quiz
