@@ -6,7 +6,11 @@
 
 **How to use this book**
 
-Each chapter follows the Panaversity Teaching Method inspired by the Schaum’s Outline series: a short theory primer, basic check‑in questions, many step‑by‑step solved problems, practice problems with answers at the end of the chapter, and stretch challenges.
+Each chapter follows the Panaversity Teaching Method inspired by the Schaum’s Outline series: a short theory primer, basic check‑in questions, many step‑by‑step solved problems, practice problems with answers at the end of the chapter, and stretch challenges. Remember the goal is to convert knowledge into intelligence by applying real world examples.
+
+- **Teacher use**: Open with 2–3 check‑ins, model 1–2 worked examples, assign practice, then a brief reflection.
+- **Student use**: Skim the primer, answer check‑ins first, study 2–3 worked examples, then do practice and check answers.
+- **Time guide**: For each chapter 30 minute session, aim ~5 min check‑ins, 10 min examples, 10 min practice, ~3–5 min reflect.
 
 ## Table of contents
 - [Introduction](#introduction)
