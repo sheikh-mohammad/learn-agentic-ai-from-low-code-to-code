@@ -968,6 +968,8 @@ We've explored what an agentic organization is, why it's the future of business,
 
 The journey to becoming an agentic organization is not something that can be accomplished overnight. It's a gradual process of change that requires a lot of experimentation and learning. The McKinsey article suggests a few key steps that companies can take to get started:
 
+![steps for agentic orgs future transformation path](./path_agentic_future.png)
+
 * **Start with a Vision:** The first step is for the company's leaders to create a clear vision for what they want to achieve. Why do they want to become more agentic? What are the specific goals they're trying to accomplish?
 * **Experiment and Learn:** Instead of trying to change the entire company all at once, it's better to start with small experiments. A company could choose one or two "lighthouse" projects – small, high-impact projects where they can test out new, more agentic ways of working.
 * **Build the Right Culture:** Becoming an agentic organization is as much about changing the company's culture as it is about changing its structure. Companies need to foster a culture of trust, transparency, and continuous learning.
