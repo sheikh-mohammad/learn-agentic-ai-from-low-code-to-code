@@ -70,6 +70,8 @@ Each row of the chart shows how things like work, technology, and leadership loo
 * **Digital**: "T-shaped" workers (they know one skill deeply, but also understand other areas and collaborate).
 * **AI**: Mix of deep and broad skills ("M-shaped" workers), constant learning, and change embraced.
 
+![](./t_and_m.png)
+
 
 ### 💻 **Technology and Data**
 
@@ -202,8 +204,6 @@ Start with a few visible, high-impact pilot projects to prove value, while simul
 ## Bottom line (in simple terms)
 
 McKinsey’s view: we’re on the verge of a big leap in how companies operate. Rather than AI being a tool we switch on here and there, in the agentic model AI becomes a co-worker (or team) that acts autonomously within defined rules. To get there, you must rethink work from the ground up—tech, human roles, governance, and leadership all must evolve.
-
-If you like, I can also prepare a short “what this means for you personally / in your job, even without tech skills” version. Do you want me to send that?
 
 [1]: https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era?utm_source=chatgpt.com "The agentic organization: A new operating model for AI | McKinsey"
 [2]: https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage?utm_source=chatgpt.com "Seizing the agentic AI advantage - McKinsey"
