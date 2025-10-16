@@ -70,6 +70,8 @@ Each row of the chart shows how things like work, technology, and leadership loo
 * **Digital**: "T-shaped" workers (they know one skill deeply, but also understand other areas and collaborate).
 * **AI**: Mix of deep and broad skills ("M-shaped" workers), constant learning, and change embraced.
 
+![](./t_and_m.png)
+
 
 ### 💻 **Technology and Data**
 
