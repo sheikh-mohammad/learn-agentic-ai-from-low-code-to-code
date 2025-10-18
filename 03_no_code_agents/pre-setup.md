@@ -14,7 +14,6 @@ Complete these steps **before** the class to ensure you can follow along smoothl
    - Sign up with Google
    - Sign up with email and password
 4. Verify your email address if required
-5. Complete the welcome survey (optional but helpful)
 
 **✅ Success check:** You should see the OpenAI Platform dashboard
 
@@ -22,7 +21,7 @@ Complete these steps **before** the class to ensure you can follow along smoothl
 
 ### Step 2: Set Up Billing (10 minutes)
 
-OpenAI requires a payment method to use Agent Builder and API features.
+OpenAI requires a payment method to test agent workflows created in Agent Builder.
 
 **Accepted payment methods in Pakistan:**
 
@@ -32,9 +31,12 @@ OpenAI requires a payment method to use Agent Builder and API features.
 
 **Steps:**
 
-1. Click on your profile icon (top right)
-2. Select **Settings** → **Billing**
-3. Click **Add payment method**
+1. Find the Settings Icon on top right corner next to profile icon (top right)
+2. Select **Settings**
+![](./public/settings-nav.png)
+
+3. From left sidebar select **Billing**
+3. Click **Payment Methods** -> **Add payment method**
 4. Enter your card details:
    - Card number
    - Expiration date
@@ -42,12 +44,14 @@ OpenAI requires a payment method to use Agent Builder and API features.
    - Billing address (use your accurate address)
 5. Click **Save**
 
+![alt text](./public/billing.png)
+
 **For SadaPay/NayaPay users:**
 
 - Open your SadaPay or NayaPay app
 - Create a virtual card (if you don't have one)
 - Copy the card details
-- Use them in the OpenAI billing form
+- Use them in the OpenAI billing
 - Make sure your card has at least $5-6 balance (PKR 1600+)
 
 **✅ Success check:** You should see "Payment method added" confirmation
@@ -77,17 +81,11 @@ OpenAI requires a payment method to use Agent Builder and API features.
 
 OpenAI creates a default organization for you automatically.
 
-1. Click on your profile icon → **Settings**
+1. Click on → **Settings** icon
 2. Go to **Organization** tab
 3. You should see your organization name (usually your email prefix)
-4. Note your **Organization ID** (starts with `org-...`)
-5. Click on verify and follow the process to complete verification (Optional but it opens Preview Testing feature)
+4. Click on verify and follow the process to complete verification (Optional but it opens Preview Testing feature)
 
-**Optional:** Rename your organization
-
-1. Click **Edit** next to organization name
-2. Give it a clear name (e.g., "My AgentKit Practice")
-3. Click **Save**
 
 **✅ Success check:** You can see verified organization.
 
@@ -118,16 +116,11 @@ Print or save this checklist and confirm before class:
 - ✅ I can see the Templates button
 - ✅ I have a stable internet connection
 - ✅ I have a notebook or document ready for notes
-- ✅ I saved verified my Organization
+- ✅ I have verified my Organization
 
 ---
 
 ## Cost Expectations
-
-**For this session:**
-
-- Expected usage: $0.50 - $1.00
-- Your $5 credit will be more than enough
 
 **What uses credits:**
 
@@ -168,9 +161,4 @@ Once you've completed all steps above, you're ready for Week 2 Session 1.
 ## Quick Links Reference
 
 - Platform login: [https://platform.openai.com](https://platform.openai.com)
-- Agent Builder: [https://platform.openai.com/playground/agent-builder](https://platform.openai.com/playground/agent-builder)
-- Billing settings: [https://platform.openai.com/settings/organization/billing](https://platform.openai.com/settings/organization/billing)
-- Usage dashboard: [https://platform.openai.com/usage](https://platform.openai.com/usage)
-- Help center: [https://help.openai.com](https://help.openai.com)
-- SadaPay: [https://sadapay.pk](https://sadapay.pk)
-- NayaPay: [https://nayapay.com](https://nayapay.com)
+- Billing settings: [https://platform.openai.com/settings/organization/billing/overview](https://platform.openai.com/settings/organization/billing/overview)
