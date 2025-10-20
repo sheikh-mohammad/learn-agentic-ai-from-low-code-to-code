@@ -83,7 +83,7 @@ Example: "Warehouse work is repetitive — pick, move, drop. This is perfect for
 
 ## Step 3: Submission Guidelines
 
-#### Required: One-Page Summary or Q&A Format [7 points]
+#### Required: One-Page Summary or Q&A Format [8 points]
 Write a simple, one-page explanation in Google Docs - don't forget to make it public:
 - Heading 1: Company name and the problem faced
 - Heading 2: What the agent does and how humans stay in control?
@@ -109,18 +109,8 @@ Important Notes:
 
 ---
 
-#### Bonus Points
+#### Bonus Points: Video Explanation (2-3 minutes) [2 points]
 
-##### 1. Simple Presentation (5 slides) [1 point]
-  - Slide 1: Company + Problem
-  - Slide 2: What the Agent Does
-  - Slide 3: Human Oversight
-  - Slide 4: Results
-  - Slide 5: Why It Works
-
----
-
-##### 2. Video Explanation (2-3 minutes) [2 points]
 Record yourself explaining:
 - What company
 - What they built
