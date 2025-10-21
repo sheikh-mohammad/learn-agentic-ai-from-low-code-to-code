@@ -205,8 +205,6 @@ Start with a few visible, high-impact pilot projects to prove value, while simul
 
 McKinsey’s view: we’re on the verge of a big leap in how companies operate. Rather than AI being a tool we switch on here and there, in the agentic model AI becomes a co-worker (or team) that acts autonomously within defined rules. To get there, you must rethink work from the ground up—tech, human roles, governance, and leadership all must evolve.
 
-If you like, I can also prepare a short “what this means for you personally / in your job, even without tech skills” version. Do you want me to send that?
-
 [1]: https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era?utm_source=chatgpt.com "The agentic organization: A new operating model for AI | McKinsey"
 [2]: https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage?utm_source=chatgpt.com "Seizing the agentic AI advantage - McKinsey"
 [3]: https://www.t-systems.com/de/en/insights/newsroom/expert-blogs/seizing-the-agentic-ai-advantage-1071474?utm_source=chatgpt.com "Seizing the agentic AI advantage - T-Systems"

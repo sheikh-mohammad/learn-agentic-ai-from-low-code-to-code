@@ -730,7 +730,7 @@ D) Massive infrastructure investment is essential to becoming a core provider
 2. C
 3. B
 4. B
-5. C
+5. D
 6. B
 7. B
 8. C
@@ -739,7 +739,7 @@ D) Massive infrastructure investment is essential to becoming a core provider
 11. D
 12. D
 13. B
-14. B
+14. C
 15. C
 16. C
 17. B

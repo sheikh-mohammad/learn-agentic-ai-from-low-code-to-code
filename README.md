@@ -68,7 +68,7 @@ By the end, participants can:
 
 ### Week 2 — Foundations & first workflow
 
-**Session 1: What is an “agent” (no code)? (2h)**
+**Session 1: [What is an “agent” (no code)?](./03_no_code_agents/readme.md) (2h)**
 
 * The AgentKit stack at a glance: Agent Builder (visual), Connector Registry (admin), ChatKit (UI), Evals (quality), Guardrails (safety).
 * Concepts in human terms: tasks, tools, multi-step flows, agent handoffs, memory/sessions.
