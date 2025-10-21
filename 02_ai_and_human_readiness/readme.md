@@ -2,7 +2,7 @@
 
 *Highlights from the 2025 Gartner IT Symposium/Xpo opening keynote—and a practical playbook for CIOs*
 
-**[Watch Overview A: AI's Great Value Paradox](https://notebooklm.google.com/notebook/dc029351-ed5a-485e-8608-36ef74978cd6?artifactId=2e649b72-ed75-4e80-a53d-7a9d07a28d78)**
+**[Watch Overview Video: AI's Great Value Paradox](https://youtu.be/jPEeszvkRhs)**
 
 **[Navigating AI Transformation: A Strategic Guide for Beginners](ai_transformation_guide.md)**
 
