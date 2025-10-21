@@ -2,7 +2,7 @@
 
 *Highlights from the 2025 Gartner IT Symposium/Xpo opening keynote—and a practical playbook for CIOs*
 
-**[Watch: AI's Great Value Paradox](https://notebooklm.google.com/notebook/4d211c56-8b33-4142-95d8-6d65de28faaa?artifactId=4b887e71-e60e-43f0-a48d-e418139c0548)**
+**[Watch Overview A: AI's Great Value Paradox](https://notebooklm.google.com/notebook/dc029351-ed5a-485e-8608-36ef74978cd6?artifactId=2e649b72-ed75-4e80-a53d-7a9d07a28d78)**
 
 **[Navigating AI Transformation: A Strategic Guide for Beginners](ai_transformation_guide.md)**
 
@@ -14,7 +14,6 @@ The artificial intelligence revolution presents a critical paradox for today's l
 
 This disconnect is not a technology problem; it is a human and organizational one. AI capabilities are accelerating, but human readiness, operating models, and essential controls are lagging. The CIO's most urgent mandate is therefore to bridge this gap. Sustainable value creation and competitive advantage will not come from deploying AI alone, but from orchestrating a dual strategy that advances technological capabilities and human preparedness in lockstep.
 
----
 
 ### **The Argument: Bridging the Gap Between AI Potential and Human Readiness**
 

@@ -4,7 +4,175 @@
 
 ---
 
-**1. According to the Gartner positioning system, where do most organizations currently sit in terms of AI and human readiness?**
+**1. Which U.S. industry has the highest potential for automation exposure?**
+
+A) Legal services with 44% automation exposure
+
+B) Office & administrative support with 46% automation exposure
+
+C) Architecture & engineering with 37% automation exposure
+
+D) Business & financial operations with 35% automation exposure
+
+---
+
+**2. What is the estimated number of full-time jobs globally that could be impacted by AI?**
+
+A) 300 million full-time jobs could be impacted
+
+B) 250 million full-time jobs could be impacted
+
+C) 400 million full-time jobs could be impacted
+
+D) 200 million full-time jobs could be impacted
+
+---
+
+**3. What percentage automation exposure does the legal industry face?**
+
+A) 46% automation exposure in the legal industry
+
+B) 37% automation exposure in the legal industry
+
+C) 44% automation exposure in the legal industry
+
+D) 35% automation exposure in the legal industry
+
+---
+
+**4. What is the average automation exposure across all U.S. industries?**
+
+A) 30% across all industries on average
+
+B) 26% across all industries on average
+
+C) 20% across all industries on average
+
+D) 35% across all industries on average
+
+---
+
+**5. Which industry has the lowest potential for AI automation?**
+
+A) Construction & extraction with 6% exposure
+
+B) Installation, maintenance & repair with 4% exposure
+
+C) Production with 9% exposure
+
+D) Building, grounds cleaning & maintenance with 1% exposure
+
+---
+
+**6. What projected increase in annual global GDP could result from AI-driven productivity increases?**
+
+A) +5% increase in annual global GDP
+
+B) +10% increase in annual global GDP
+
+C) +7% increase in annual global GDP
+
+D) +12% increase in annual global GDP
+
+---
+
+**7. What type of tasks in high-exposure industries are likely to be fully automated?**
+
+A) Customer service, product design, and quality control
+
+B) Scheduling meetings, writing reports, and data input
+
+C) Strategic planning, team leadership, and innovation
+
+D) Physical assembly, equipment operation, and maintenance
+
+---
+
+**8. What percentage of employment in the architecture & engineering industry is exposed to automation?**
+
+A) 44% of architecture & engineering employment
+
+B) 35% of architecture & engineering employment
+
+C) 37% of architecture & engineering employment
+
+D) 32% of architecture & engineering employment
+
+---
+
+**9. What methodology did MSCI use to estimate automation exposure?**
+
+A) Surveyed over 900 executives about automation plans
+
+B) Analyzed over 900 U.S. jobs using the O\*NET occupational database
+
+C) Reviewed automation patents filed in the last five years
+
+D) Conducted field studies in 900 different workplaces
+
+---
+
+**10. What automation exposure percentage does the healthcare practitioners & technical industry face?**
+
+A) 26% automation exposure
+
+B) 27% automation exposure
+
+C) 28% automation exposure
+
+D) 29% automation exposure
+
+---
+
+**11. Why do industries relying on manual labor have lower automation exposure?**
+
+A) They have strong union protections against automation
+
+B) They are unlikely to experience much impact from AI
+
+C) They lack the budget for automation investments
+
+D) They are protected by government regulations
+
+---
+
+**12. What is the automation exposure for the business & financial operations industry?**
+
+A) 37% automation exposure
+
+B) 32% automation exposure
+
+C) 35% automation exposure
+
+D) 44% automation exposure
+
+---
+
+**13. Which industry category has 19% automation exposure according to the chart?**
+
+A) Healthcare support services
+
+B) Educational instruction & library
+
+C) Personal care & service
+
+D) Food preparation & serving related
+
+---
+
+**14. What automation exposure does the construction & extraction industry face?**
+
+A) 11% automation exposure
+
+B) 9% automation exposure
+
+C) 4% automation exposure
+
+D) 6% automation exposure
+
+---
+
+**15. According to the Gartner positioning system, where do most organizations currently sit in terms of AI and human readiness?**
 
 A) Upper-right quadrant with both AI and human readiness at 75%
 
@@ -16,7 +184,7 @@ D) Lower-right quadrant with AI readiness at 25% and human readiness at 50%
 
 ---
 
-**2. What percentage of AI initiatives achieve return on investment according to the document?**
+**16. What percentage of AI initiatives achieve return on investment according to the Gartner document?**
 
 A) Approximately 50% of AI initiatives achieve ROI
 
@@ -28,7 +196,7 @@ D) Approximately 10% of AI initiatives achieve ROI
 
 ---
 
-**3. What is the primary reason cited for the AI value paradox in organizations?**
+**17. What is the primary reason cited for the AI value paradox in organizations?**
 
 A) Lack of sufficient financial investment in AI technologies
 
@@ -40,7 +208,7 @@ D) Regulatory constraints preventing full AI deployment
 
 ---
 
-**4. What percentage of CIOs and IT leaders lack formal processes to monitor AI accuracy?**
+**18. What percentage of CIOs and IT leaders lack formal processes to monitor AI accuracy?**
 
 A) 84% of CIOs and IT leaders lack formal accuracy monitoring processes
 
@@ -52,7 +220,7 @@ D) 75% of CIOs and IT leaders lack formal accuracy monitoring processes
 
 ---
 
-**5. What error rate can generative AI systems demonstrate in certain applications?**
+**19. What error rate can generative AI systems demonstrate in certain applications?**
 
 A) Error rates of approximately 15% in certain applications
 
@@ -64,7 +232,7 @@ D) Error rates of approximately 35% in certain applications
 
 ---
 
-**6. How many employees express interest in AI tools versus those who trust leadership to guide transformation?**
+**20. How many employees express interest in AI tools versus those who trust leadership to guide transformation?**
 
 A) 75% express interest while 40% trust leadership
 
@@ -76,7 +244,7 @@ D) 80% express interest while 50% trust leadership
 
 ---
 
-**7. What percentage of AI initiatives deliver truly transformational impact?**
+**21. What percentage of AI initiatives deliver truly transformational impact?**
 
 A) Approximately 5% deliver transformational impact
 
@@ -88,7 +256,7 @@ D) Approximately 8% deliver transformational impact
 
 ---
 
-**8. How many ancillary costs emerge for each AI tool procured?**
+**22. How many ancillary costs emerge for each AI tool procured?**
 
 A) Approximately 15 ancillary costs for each AI tool
 
@@ -100,7 +268,7 @@ D) Approximately 20 ancillary costs for each AI tool
 
 ---
 
-**9. What term does the document use to describe employees with technical literacy, curiosity, and practical judgment in applying AI?**
+**23. What term does the Gartner document use to describe employees with technical literacy, curiosity, and practical judgment in applying AI?**
 
 A) "Digital Champions" workers
 
@@ -112,7 +280,7 @@ D) "Polymath" workers
 
 ---
 
-**10. According to the three components of the "accuracy survival kit," what is NOT included?**
+**24. According to the three components of the "accuracy survival kit," what is NOT included?**
 
 A) Two-factor error checking mechanisms
 
@@ -124,7 +292,7 @@ D) Automated model retraining without human oversight
 
 ---
 
-**11. In the Golden Path Framework, what is the primary goal of Stage A (Discover)?**
+**25. In the Golden Path Framework, what is the primary goal of Stage A (Discover)?**
 
 A) Institutionalize learning and compound value
 
@@ -136,7 +304,7 @@ D) Prove value hypotheses with guardrails
 
 ---
 
-**12. What time frame is allocated for the "De-risk" stage in the Golden Path Framework?**
+**26. What time frame is allocated for the "De-risk" stage in the Golden Path Framework?**
 
 A) 0-90 days from project initiation
 
@@ -148,7 +316,7 @@ D) 270-365 days from project initiation
 
 ---
 
-**13. What is the formula for calculating the Readiness Index (RI) in the readiness scorecard?**
+**27. What is the formula for calculating the Readiness Index (RI) in the readiness scorecard?**
 
 A) RI = (Avg AR) + (Avg HR)
 
@@ -160,7 +328,7 @@ D) RI = (Avg AR)² × (Avg HR)
 
 ---
 
-**14. Which of the following is NOT listed as a component of AI Readiness in the scorecard?**
+**28. Which of the following is NOT listed as a component of AI Readiness in the scorecard?**
 
 A) Data fitness (coverage, freshness, quality)
 
@@ -172,7 +340,7 @@ D) Budget allocation and financial resources
 
 ---
 
-**15. What does the document recommend regarding the "Accuracy Owner" role?**
+**29. What does the Gartner document recommend regarding the "Accuracy Owner" role?**
 
 A) Should report quarterly to the executive board
 
@@ -184,7 +352,7 @@ D) Should manage all AI projects across the organization
 
 ---
 
-**16. What are the two types of error checking recommended in the Accuracy Survival Kit?**
+**30. What are the two types of error checking recommended in the Accuracy Survival Kit?**
 
 A) Internal and external error checking mechanisms
 
@@ -196,7 +364,7 @@ D) Statistical and heuristic error checking mechanisms
 
 ---
 
-**17. By 2030, what percentage of IT work does Gartner project will be performed by humans augmented with AI?**
+**31. By 2030, what percentage of IT work does Gartner project will be performed by humans augmented with AI?**
 
 A) 60% of IT work will be performed by augmented humans
 
@@ -208,7 +376,7 @@ D) 50% of IT work will be performed by augmented humans
 
 ---
 
-**18. What metaphor does Gartner use to describe the comprehensive relationship organizations establish with major AI providers?**
+**32. What metaphor does Gartner use to describe the comprehensive relationship organizations establish with major AI providers?**
 
 A) Selecting a "strategic alliance partner"
 
@@ -220,7 +388,7 @@ D) Selecting a "innovation partner"
 
 ---
 
-**19. Which of the following is NOT mentioned as a core skill block for building human readiness?**
+**33. Which of the following is NOT mentioned as a core skill block for building human readiness?**
 
 A) AI literacy for all employees
 
@@ -232,7 +400,7 @@ D) Risk and compliance fluency
 
 ---
 
-**20. What does the document recommend regarding manager training in change management?**
+**34. What does the document recommend regarding manager training in change management?**
 
 A) Train managers and staff simultaneously
 
@@ -244,7 +412,7 @@ D) Train managers only when issues arise
 
 ---
 
-**21. Which bounded domain is NOT mentioned as an example for decision-making agents?**
+**35. Which bounded domain is NOT mentioned as an example for decision-making agents?**
 
 A) B2B negotiation aides
 
@@ -256,7 +424,7 @@ D) Social media content moderation
 
 ---
 
-**22. What strategy does the document recommend to avoid vendor lock-in?**
+**36. What strategy does the document recommend to avoid vendor lock-in?**
 
 A) Use only open-source models exclusively
 
@@ -268,7 +436,7 @@ D) Negotiate exclusive contracts with single vendors
 
 ---
 
-**23. In the Golden Path Framework Stage C (Deploy), what is NOT mentioned as a key component?**
+**37. In the Golden Path Framework Stage C (Deploy), what is NOT mentioned as a key component?**
 
 A) Production SLAs for latency bands
 
@@ -280,7 +448,7 @@ D) Agent boundaries with explicit scopes
 
 ---
 
-**24. What does the document identify as the "golden path" in the positioning system?**
+**38. What does the Gartner document identify as the "golden path" in the positioning system?**
 
 A) Organizations with high AI readiness but low human readiness
 
@@ -292,7 +460,7 @@ D) Organizations with moderate levels of both readiness dimensions
 
 ---
 
-**25. Which metric category is NOT included in the "Metrics That Matter" section?**
+**39. Which metric category is NOT included in the "Metrics That Matter" section?**
 
 A) Business metrics like revenue lift and cost-to-serve
 
@@ -304,7 +472,7 @@ D) Risk metrics like PII leaks prevented
 
 ---
 
-**26. What is the primary challenge the document identifies for middle management in AI transformation?**
+**40. What is the primary challenge the document identifies for middle management in AI transformation?**
 
 A) Learning to code AI algorithms
 
@@ -316,7 +484,7 @@ D) Recruiting AI talent from competitors
 
 ---
 
-**27. According to the use-case sieve in Stage A, which factor is NOT mentioned for ranking candidates?**
+**41. According to the use-case sieve in Stage A, which factor is NOT mentioned for ranking candidates?**
 
 A) Decision criticality
 
@@ -328,7 +496,7 @@ D) Data availability and quality
 
 ---
 
-**28. What does the document recommend as the focus for value creation with AI?**
+**42. What does the Gartner document recommend as the focus for value creation with AI?**
 
 A) Define a task automated rather than a decision improved
 
@@ -340,7 +508,7 @@ D) Define a headcount reduction rather than a capability enhancement
 
 ---
 
-**29. What percentage of IT work does Gartner project will be executed by AI autonomously by 2030?**
+**43. What percentage of IT work does Gartner project will be executed by AI autonomously by 2030?**
 
 A) 25% will be executed by AI autonomously
 
@@ -352,7 +520,7 @@ D) 35% will be executed by AI autonomously
 
 ---
 
-**30. In the context of accuracy monitoring, what should organizations define according to the Accuracy Survival Kit?**
+**44. In the context of accuracy monitoring, what should organizations define according to the Accuracy Survival Kit?**
 
 A) Only the maximum acceptable error rate
 
@@ -364,7 +532,7 @@ D) Only the frequency of accuracy audits
 
 ---
 
-**31. What does the document recommend regarding compensation and AI adoption?**
+**45. What does the document recommend regarding compensation and AI adoption?**
 
 A) Keep compensation separate from AI metrics
 
@@ -376,7 +544,7 @@ D) Offer stock options for AI skill development
 
 ---
 
-**32. According to the document, what is a critical competency that amplifies AI effectiveness across diverse applications?**
+**46. According to the document, what is a critical competency that amplifies AI effectiveness across diverse applications?**
 
 A) Python programming and model training
 
@@ -388,7 +556,7 @@ D) Cloud infrastructure architecture
 
 ---
 
-**33. What does the document recommend organizations maintain in their own tenancy to avoid lock-in?**
+**47. What does the document recommend organizations maintain in their own tenancy to avoid lock-in?**
 
 A) Only the user interface components
 
@@ -400,7 +568,7 @@ D) Only the API documentation
 
 ---
 
-**34. What is the recommended approach for handling AI incidents according to the playbooks?**
+**48. What is the recommended approach for handling AI incidents according to the playbooks?**
 
 A) Wait for vendor support response
 
@@ -412,7 +580,7 @@ D) Escalate immediately to executive leadership
 
 ---
 
-**35. What type of verification does the document recommend for critical AI decisions?**
+**49. What type of verification does the document recommend for critical AI decisions?**
 
 A) Single-model verification with confidence scoring
 
@@ -424,7 +592,7 @@ D) Crowd-sourced verification from multiple users
 
 ---
 
-**36. In the Golden Path Framework, what is the goal of Stage D (Diffuse)?**
+**50. In the Golden Path Framework, what is the goal of Stage D (Diffuse)?**
 
 A) Prove value hypotheses with guardrails
 
@@ -436,7 +604,7 @@ D) Institutionalize learning and compound value
 
 ---
 
-**37. What does the document recommend for managing the full cost of AI implementation?**
+**51. What does the document recommend for managing the full cost of AI implementation?**
 
 A) Focus only on licensing costs
 
@@ -448,7 +616,7 @@ D) Use vendor-provided cost calculators exclusively
 
 ---
 
-**38. Which role is NOT explicitly mentioned in the role patterns section?**
+**52. Which role is NOT explicitly mentioned in the role patterns section?**
 
 A) Product Owner (AI)
 
@@ -460,7 +628,7 @@ D) Accuracy Owner
 
 ---
 
-**39. What does the document recommend for organizations with medium Readiness Index scores?**
+**53. What does the document recommend for organizations with medium Readiness Index scores?**
 
 A) Pause all AI initiatives indefinitely
 
@@ -472,7 +640,7 @@ D) Focus only on improving AI readiness
 
 ---
 
-**40. What should organizations use to maintain regression gates according to the evaluation harness?**
+**54. What should organizations use to maintain regression gates according to the evaluation harness?**
 
 A) Manual monthly reviews only
 
@@ -484,7 +652,7 @@ D) Vendor-provided testing tools exclusively
 
 ---
 
-**41. What is the document's recommendation regarding publicizing AI wins and misses?**
+**55. What is the document's recommendation regarding publicizing AI wins and misses?**
 
 A) Share only successful outcomes externally
 
@@ -496,7 +664,7 @@ D) Report only to executive leadership quarterly
 
 ---
 
-**42. According to the document, what distinguishes decision-making agents from conversational agents?**
+**56. According to the document, what distinguishes decision-making agents from conversational agents?**
 
 A) Decision-making agents have better user interfaces
 
@@ -508,7 +676,7 @@ D) Decision-making agents require less training data
 
 ---
 
-**43. What does the document identify as a key aspect of AI sovereignty considerations?**
+**57. What does the document identify as a key aspect of AI sovereignty considerations?**
 
 A) Selecting only domestic AI vendors
 
@@ -520,7 +688,7 @@ D) Avoiding all cloud-based AI services
 
 ---
 
-**44. In the context of change micro-pilots during the De-risk stage, what is the recommended cycle duration?**
+**58. In the context of change micro-pilots during the De-risk stage, what is the recommended cycle duration?**
 
 A) 6-8 week cycles with large cohorts
 
@@ -532,7 +700,7 @@ D) 10-12 week cycles with executive teams
 
 ---
 
-**45. What type of content generation does the document identify as having matured considerably?**
+**59. What type of content generation does the document identify as having matured considerably?**
 
 A) Video generation and editing capabilities
 
@@ -544,7 +712,7 @@ D) Image generation and manipulation capabilities
 
 ---
 
-**46. According to the document, what should organizations define for each use case in Stage A?**
+**60. According to the document, what should organizations define for each use case in Stage A?**
 
 A) A headcount reduction target
 
@@ -556,7 +724,7 @@ D) A budget allocation limit
 
 ---
 
-**47. What does the document recommend regarding pattern libraries in Stage D?**
+**61. What does the document recommend regarding pattern libraries in Stage D?**
 
 A) Purchase pattern libraries from vendors
 
@@ -568,7 +736,7 @@ D) License pattern libraries from industry consortiums
 
 ---
 
-**48. What challenge does the document identify regarding hyperscaler AI providers?**
+**62. What challenge does the document identify regarding hyperscaler AI providers?**
 
 A) Limited integration capabilities with existing systems
 
@@ -580,7 +748,7 @@ D) Lack of support for common AI frameworks
 
 ---
 
-**49. What does the document recommend regarding capability handshakes in the De-risk stage?**
+**63. What does the document recommend regarding capability handshakes in the De-risk stage?**
 
 A) Define informal agreements between teams
 
@@ -592,7 +760,7 @@ D) Create legal agreements with AI providers
 
 ---
 
-**50. According to the document, what is the central message of the Gartner keynote?**
+**64. According to the document, what is the central message of the Gartner keynote?**
 
 A) AI technology alone will drive transformation
 
@@ -607,52 +775,66 @@ D) Organizations should wait for more mature AI technologies
 # Answer Key
 
 1. B
-2. B
+2. A
 3. C
-4. A
-5. C
+4. B
+5. D
 6. C
-7. C
+7. B
 8. C
-9. C
-10. D
-11. D
-12. B
-13. B
+9. B
+10. C
+11. B
+12. C
+13. C
 14. D
 15. B
-16. A
-17. B
-18. C
+16. B
+17. C
+18. A
 19. C
 20. C
-21. D
-22. B
+21. C
+22. C
 23. C
-24. C
-25. C
-26. C
-27. C
-28. B
-29. A
-30. B
-31. C
-32. B
+24. D
+25. D
+26. B
+27. B
+28. D
+29. B
+30. A
+31. B
+32. C
 33. C
-34. B
-35. C
-36. D
-37. B
+34. C
+35. D
+36. B
+37. C
 38. C
-39. B
-40. B
+39. C
+40. C
 41. C
 42. B
-43. B
-44. C
-45. B
-46. C
-47. B
-48. C
+43. A
+44. B
+45. C
+46. B
+47. C
+48. B
 49. C
-50. C
+50. D
+51. B
+52. C
+53. B
+54. B
+55. C
+56. B
+57. B
+58. C
+59. B
+60. C
+61. B
+62. C
+63. C
+64. C
