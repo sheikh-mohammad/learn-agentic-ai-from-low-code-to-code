@@ -15,7 +15,10 @@ Supplementary Learning Material:
 
 ChatGPT has reached 800 million users in just two years, a milestone that took the internet 13 years to reach. 
 The data, highlighted by the Financial Times and confirmed by Sam Altman, marks the fastest technology adoption curve in history. 
+
 Source: Financial Times
+
+<img src="./countries.jpg" alt="drawing" width="400"/>
 
 ---
 
