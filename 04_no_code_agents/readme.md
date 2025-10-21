@@ -1,4 +1,4 @@
-# Week 2 · Session 1 — What Is an Agent (No Code)?
+# What Is an Agent (No Code)?
 
 A complete guide to understanding AI agents and building your first agentic workflow using OpenAI's AgentKit.
 

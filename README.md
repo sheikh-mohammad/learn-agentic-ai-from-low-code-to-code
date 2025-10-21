@@ -66,9 +66,14 @@ By the end, participants can:
 
 **Session 2: [Agentic Organizations](./01_agentic_org/readme.md) (2h)**
 
-### Week 2 — Foundations & first workflow
+### Week 2 — AI and Human Readiness & No-Code Agents first workflow
 
-**Session 1: [What is an “agent” (no code)?](./03_no_code_agents/readme.md) (2h)**
+**Session 3: [AI and Human Readiness](./02_ai_and_human_readiness/readme.md) (2h)**
+
+* Assignment 1 Real AI Agents Reserach Discussion
+* Introduction to AI Agents
+
+**Session 4: [What is an “agent” (no code)?](./03_no_code_agents/readme.md) (2h)**
 
 * The AgentKit stack at a glance: Agent Builder (visual), Connector Registry (admin), ChatKit (UI), Evals (quality), Guardrails (safety).
 * Concepts in human terms: tasks, tools, multi-step flows, agent handoffs, memory/sessions.
@@ -76,17 +81,16 @@ By the end, participants can:
   
   **Lab:** Clone a template, customize instructions, add an approval step, run test conversations. ([OpenAI][1])
 
-**Session 2: Connecting knowledge safely (2–3h)**
+### Week 3 — Knowledge Connectivity & Design Patterns
+
+**Session 5: Connecting knowledge safely (2–3h)**
 
 * What to put in vs. link to; file search basics; connector options (e.g., Drive, SharePoint, Teams) and MCP servers.
-* Admin view of **Connector Registry**; roles & governance; enabling connectors for a workspace.
 * Data handling patterns: least-privilege, redaction, auditability.
   
   **Lab:** Attach a small policy pack (PDFs/Docs), configure retrieval, and test relevance safely. ([OpenAI][1])
 
-### Week 3 — Designing, deploying, and branding the chat UI
-
-**Session 3: Visual design patterns (2–3h)**
+**Session 6: Visual design patterns (2–3h)**
 
 * Drag-and-drop nodes: tools, file search, guardrails, decision/branching, human-in-the-loop.
 * Multi-agent patterns via handoffs—when and why to split responsibilities.
@@ -94,16 +98,16 @@ By the end, participants can:
   
   **Lab:** Build a 5–7 node workflow from a blank canvas; add a human approval and a fallback path. ([OpenAI][1])
 
-**Session 4: Deploy with ChatKit (2h)**
+### Week 4 — Evaluations, Branding the Chat UI & Deployment
+
+**Session 7: Deploy with ChatKit (2h)**
 
 * Shipping a usable interface without front-end work: embed options and theme/brand tweaks.
 * Sharing with pilot users; capturing transcripts and feedback for iteration.
   
   **Lab:** Deploy your agent’s chat UI, set a custom name/avatar, and invite 3 pilot testers. ([OpenAI][3])
 
-### Week 4 — Quality: evaluate, observe, and iterate
-
-**Session 5: Evals you’ll actually use (2–3h)**
+**Session 8: Evals you’ll actually use (2–3h)**
 
 * Designing a simple eval dataset from real tickets/prompts.
 * **Trace grading**: grading whole runs to spot brittle steps.
@@ -112,7 +116,9 @@ By the end, participants can:
   
   **Lab:** Create a 20-case eval, run it, and apply one optimization round. Re-run and compare. ([OpenAI][1])
 
-**Session 6: Observability & cost control (2h)**
+### Week 5 — Quality: Guardrails, Observe, Governance and Iterate
+
+**Session 9: Observability & cost control (2h)**
 
 * Reading traces; identifying tool-call loops and dead ends.
 * Lightweight A/Bs: instruction tweaks and guardrail thresholds.
@@ -120,16 +126,16 @@ By the end, participants can:
   
   **Lab:** Use traces to remove one redundant step and reduce tokens/time per task. ([OpenAI][1])
 
-### Week 5 — Safety, governance, and capstone
-
-**Session 7: Guardrails & governance (2–3h)**
+**Session 10: Guardrails & governance (2–3h)**
 
 * The **Guardrails Wizard**: select checks (moderation, jailbreak, PII, hallucinations) and set policies—no code.
 * Human approvals & audit trails; rollout controls and change management.
   
   **Lab:** Add PII masking + jailbreak detection to your agent, document your policy, and re-test. ([OpenAI GitHub][4])
 
-**Session 8: Capstone build & publish (2–3h)**
+### Week 6 — Capstone
+
+**Session 11: Capstone build & publish (2–3h)**
 
 * Finalize workflow, run evals, harden guardrails, and polish the ChatKit UI.
 * Write a one-page “launch note”: scope, metrics, SLAs, rollback plan.
