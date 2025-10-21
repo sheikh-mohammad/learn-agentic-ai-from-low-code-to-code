@@ -10,7 +10,7 @@ AI is surging ahead, but organizations aren’t capturing value at the same pace
 
 ## 1) The “You Are Here” Positioning System
 
-
+![](./you-are-here-gartner-positioning-system.png)
 
 Gartner’s positioning concept (visualized as a diamond with quadrants) frames progress along two axes—**AI Readiness** and **Human Readiness**:
 
