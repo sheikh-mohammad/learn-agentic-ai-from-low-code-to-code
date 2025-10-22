@@ -37,7 +37,11 @@ A chatbot answers one question at a time. You ask something, it responds, and th
 
 ## Part 2: The AgentKit Stack (15 minutes)
 
-OpenAI's AgentKit includes five tools that work together. Here's what each one does:
+OpenAI's AgentKit includes five tools that work together. 
+
+![AgentKit Stack](./public/agentkit-core-components.png)
+
+Here's what each one does:
 
 ### 1. Agent Builder (Visual Canvas)
 
