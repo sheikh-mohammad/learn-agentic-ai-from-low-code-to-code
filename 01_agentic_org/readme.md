@@ -2,6 +2,10 @@
 
 **[Watch Overview Video in English: Agentic Organizations: The Future of Work](https://youtu.be/3kQq9q56udk)**
 
+**[Watch Overview Video in Urdu: Agentic Organizations: The Future of Work](https://youtu.be/Dq2u0_jI4qk)**
+
+
+
 **[Detailed Reading Material: The agentic Organization: Contours of the next paradigm for the AI era](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era)**
 
 Supplementary Learning Material:
