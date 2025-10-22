@@ -23,12 +23,6 @@ By the end of this session, you will:
 
 ## Part 1: Understanding Agents (10 minutes)
 
-> **👉 Live Demo:** Open [Agent Builder](https://platform.openai.com/playground/agent-builder) now and follow along as we explore concepts together.
-
-### What is a Chatbot?
-
-A chatbot answers one question at a time. You ask something, it responds, and that's it. Think of asking "What's the weather today?" and getting an answer.
-
 ### What is an Agent?
 
 [Understand Agents and how they are different from chatbots](./what_is_an_agent.md)
@@ -36,6 +30,8 @@ A chatbot answers one question at a time. You ask something, it responds, and th
 ---
 
 ## Part 2: The AgentKit Stack (15 minutes)
+
+> **👉 Live Demo:** Open [Agent Builder](https://platform.openai.com/playground/agent-builder) now and follow along as we explore concepts together.
 
 OpenAI's AgentKit includes five tools that work together. Here's what each one does:
 
