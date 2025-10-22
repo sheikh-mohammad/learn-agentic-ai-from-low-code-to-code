@@ -31,25 +31,7 @@ A chatbot answers one question at a time. You ask something, it responds, and th
 
 ### What is an Agent?
 
-An agent works toward a goal by completing multiple steps. It can:
-
-- Remember what happened earlier in the conversation
-- Use tools to search for information or take actions
-- Make decisions about what to do next
-- Ask humans for approval when needed
-- Hand tasks to other specialized agents
-
-**Example workflow:**  
-A customer service agent receives a complaint → classifies it (billing vs. technical) → searches the knowledge base → drafts a response → asks a supervisor to approve → sends the answer.
-
-### Why Use Agents?
-
-Agents help organizations:
-
-- Handle tasks faster (Klarna's support agent handles two-thirds of all tickets)
-- Scale personal assistance (one agent can help thousands of people at once)
-- Maintain quality control (human approvals catch mistakes before they reach customers)
-- Keep data safe (guardrails prevent sharing private information)
+[Understand Agents and how they are different from chatbots](./what_is_an_agent.md)
 
 ---
 
