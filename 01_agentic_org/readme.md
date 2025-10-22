@@ -2,7 +2,7 @@
 
 **[Watch Overview Video in English: Agentic Organizations: The Future of Work](https://youtu.be/3kQq9q56udk)**
 
-**[Watch Overview Video in Urdu: Agentic Organizations: The Future of Work](https://youtu.be/Dq2u0_jI4qk)**
+**[Watch Overview Video in Urdu/Hindi: Agentic Organizations: The Future of Work](https://youtu.be/Dq2u0_jI4qk)**
 
 
 
