@@ -33,7 +33,11 @@ By the end of this session, you will:
 
 > **👉 Live Demo:** Open [Agent Builder](https://platform.openai.com/playground/agent-builder) now and follow along as we explore concepts together.
 
-OpenAI's AgentKit includes five tools that work together. Here's what each one does:
+OpenAI's AgentKit includes five tools that work together.
+
+![AgentKit Stack](./public/agentkit-core-components.png)
+
+Here's what each one does:
 
 ### 1. Agent Builder (Visual Canvas)
 
