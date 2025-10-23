@@ -25,7 +25,7 @@ Now, let's move from analysis to creation. They've validated the problem, and no
 
 ## Step-by-step plan we will follow in Agent Builder.
 
-### 1. Domain Knowledge: Decompose the Steps of How Grading Works
+### 1. [Domain Knowledge: Decompose the Steps of How Assignment Grading & Feedback Works](https://chatgpt.com/share/68fa2ad7-eb04-8002-ac3d-d08dd914dd41)
 
 Before we touch any tools, we must understand the process. A teacher doesn't just assign a grade. The workflow looks like this:
 
@@ -33,13 +33,13 @@ Before we touch any tools, we must understand the process. A teacher doesn't jus
 
 2. Review the Submission: The teacher reads or watches the student's work.
 
-3. Compare to Rubric: They compare the submission against a predefined grading rubric.
+3. Compare to Criteria: They compare the submission against a predefined grading criteria/rubric.
 
 4. Assign a Score: Based on the comparison, they assign points for each criterion.
 
 5. Write Internal Notes: They might jot down notes for themselves about common mistakes or standout points.
 
-6. Formulate Feedback: Using a feedback rubric (Strengths, Weaknesses, Suggestions), they write constructive comments for the student.
+6. Formulate Feedback: Using a Feedback Method (Strengths, Weaknesses, Suggestions), they write constructive comments for the student.
 
 ### 2. Define What Success Looks Like
 
@@ -47,7 +47,7 @@ For our agent, success means correctly performing the steps above. We will measu
 
 - Accuracy: Does the agent extract the correct facts from the sources?
 
-- Consistency: Does it apply the rubric fairly to different submissions?
+- Consistency: Does it apply the grading criteria fairly to different submissions evaluation?
 
 - Quality of Feedback: Is the feedback clear, constructive, and personalized?
 
@@ -57,7 +57,7 @@ For our agent, success means correctly performing the steps above. We will measu
 
 Now, let's map our decomposed steps to the nodes in Agent Builder.
 
-- Input: We'll need to provide the agent with the source materials, the student's submission, and the rubrics.
+- Input: We'll need to provide the agent with the assignment material, the student's submission, grading criteria and the feedback method.
 
 - Process: A series of agents will perform the tasks of extraction, grading, and feedback generation. The core agentic workflow will be:
   1.  **Extract Data:** The agent needs to process information from a document, a video, and a social media post.
@@ -74,9 +74,9 @@ Every workflow begins with the Start Node. This is where we will define our init
 
 - student_submission: The text submitted by the student.
 
-- grading_rubric: The criteria and point values for grading.
+- grading_criteria: The criteria and point values for grading.
 
-- feedback_rubric: The structure for the student feedback (Strengths, Areas for Improvement, Actionable Suggestions).
+- feedback_structure: The structure for the student feedback (Strengths, Areas for Improvement, Actionable Suggestions).
 
 ## 5. Plan the Workflow Logic
 We need to ensure our agent is robust. We'll use logic nodes to handle potential issues.
@@ -93,8 +93,8 @@ We'll start with a single Agent Node. The prompt is the "job description" for ou
 
 - "First, carefully review the assignment_sources."
 - "Next, analyze the student_submission."
-- "Then, using the grading_rubric, evaluate the submission and assign a score for each criterion. Provide brief internal remarks explaining your reasoning."
-- "Finally, using the feedback_rubric, write clear and constructive feedback for the student."
+- "Then, using the grading_criteria, evaluate the submission and assign a score for each criterion. Provide brief internal remarks explaining your reasoning."
+- "Finally, using the feedback_structure, write clear and constructive feedback for the student."
 - "Return your complete evaluation as a single JSON object."
 
 We will test this initial agent with a sample submission and see how different models handle the complex request.
@@ -104,15 +104,15 @@ A single agent doing everything can be unreliable. A more advanced, agentic patt
 
 ### Grading Agent:
 
-- Input: The output from the Extraction Agent and the grading_rubric.
+- Input: The output from the Extraction Agent and the grading_criteria.
 
-- Task: This agent compares the extracted points to the rubric and calculates a score. It also writes the internal remarks for the instructor.
+- Task: This agent compares the extracted points to the grading_criteria and calculates a score. It also writes the internal remarks for the instructor.
 
 - Output: A structured object containing the scores and internal remarks.
 
 ### Feedback Agent:
 
-- Input: The output from the Grading Agent and the feedback_rubric.
+- Input: The output from the Grading Agent and the feedback_criteria.
 
 - Task: This agent's sole focus is on communication. It takes the grading results and translates them into positive, constructive, and personalized feedback for the student.
 
@@ -129,23 +129,9 @@ A single agent doing everything can be unreliable. A more advanced, agentic patt
 
 By breaking the problem down this way, each agent has a simpler task, which increases the reliability and quality of the final output. This is a core skill in building effective, production-grade agentic workflows.
 
-## Sample Data
+## Sample Data: Assignment 1 Find One Real Agentic AI Use Case
 
-### Assignment: Take Assignment 1 as sample.
-
-### Grading Rubric
-- **Data Extraction (40%):**
-    - Accuracy of information extracted from the document.
-    - Completeness of information extracted from the video.
-    - Relevance of information extracted from the social media post.
-- **Grading (30%):**
-    - Correct application of the grading rubric.
-    - Consistency in grading across different submissions.
-- **Feedback (30%):**
-    - Clarity and constructiveness of the feedback.
-    - Personalization of the feedback to the student's submission.
-
-### Feedback Rubric
-- **Strengths:** What did the student do well?
-- **Areas for Improvement:** What specific areas can the student work on?
-- **Actionable Suggestions:** Provide concrete steps the student can take to improve.
+1. [Assignment Details](../assignments/01_agentic_ai_usecase.md) 
+2. [Grading Criteria](../assignments/teacher_guidelines/01_grading_criteria.md)
+3. [Standard Feedback Framework](../assignments/teacher_guidelines/01_feedback_framework.md)
+4. Submission: Complete the assignment and take your submission as sample.
