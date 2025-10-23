@@ -2,6 +2,9 @@
 
 **[Watch Overview Video in English: OpenAI's Pivot: The Next Internet](https://youtu.be/ecdVhbwfolI)**
 
+**[Watch Overview Video in Urdu/Hindi: OpenAI's Vision of the New Web](https://youtu.be/8KPGfucoXG0)**
+
+**[Watch: OpenAI Launches Browser to Tap New Market Trends](https://www.facebook.com/share/v/17eDczhKhA/)**
 
 **[Detailed Reading Material: OpenAI’s Blueprint to Power the Future Web with AI](./OpenAI’s%20Blueprint%20to%20Power%20the%20Future%20Web%20with%20AI.pdf)**
 
