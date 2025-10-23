@@ -23,39 +23,21 @@ By the end of this session, you will:
 
 ## Part 1: Understanding Agents (10 minutes)
 
-> **👉 Live Demo:** Open [Agent Builder](https://platform.openai.com/playground/agent-builder) now and follow along as we explore concepts together.
-
-### What is a Chatbot?
-
-A chatbot answers one question at a time. You ask something, it responds, and that's it. Think of asking "What's the weather today?" and getting an answer.
-
 ### What is an Agent?
 
-An agent works toward a goal by completing multiple steps. It can:
-
-- Remember what happened earlier in the conversation
-- Use tools to search for information or take actions
-- Make decisions about what to do next
-- Ask humans for approval when needed
-- Hand tasks to other specialized agents
-
-**Example workflow:**  
-A customer service agent receives a complaint → classifies it (billing vs. technical) → searches the knowledge base → drafts a response → asks a supervisor to approve → sends the answer.
-
-### Why Use Agents?
-
-Agents help organizations:
-
-- Handle tasks faster (Klarna's support agent handles two-thirds of all tickets)
-- Scale personal assistance (one agent can help thousands of people at once)
-- Maintain quality control (human approvals catch mistakes before they reach customers)
-- Keep data safe (guardrails prevent sharing private information)
+[Understand Agents and how they are different from chatbots](./what_is_an_agent.md)
 
 ---
 
 ## Part 2: The AgentKit Stack (15 minutes)
 
-OpenAI's AgentKit includes five tools that work together. Here's what each one does:
+> **👉 Live Demo:** Open [Agent Builder](https://platform.openai.com/playground/agent-builder) now and follow along as we explore concepts together.
+
+OpenAI's AgentKit includes five tools that work together.
+
+![AgentKit Stack](./public/agentkit-core-components.png)
+
+Here's what each one does:
 
 ### 1. Agent Builder (Visual Canvas)
 
