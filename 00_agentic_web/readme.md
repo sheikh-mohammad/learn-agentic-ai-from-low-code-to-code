@@ -1,5 +1,8 @@
 ## OpenAI's Latest Moves Signal a Paradigm Shift Towards a New, Agent-Driven Web
 
+**[Watch Overview Video in English: OpenAI's Pivot: The Next Internet](https://youtu.be/ecdVhbwfolI)**
+
+
 **[Detailed Reading Material: OpenAI’s Blueprint to Power the Future Web with AI](./OpenAI’s%20Blueprint%20to%20Power%20the%20Future%20Web%20with%20AI.pdf)**
 
 Supplementary Learning Material:
