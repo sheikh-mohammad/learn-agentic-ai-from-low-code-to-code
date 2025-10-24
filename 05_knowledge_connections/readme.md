@@ -223,7 +223,7 @@ Learn how to connect your agents to external data sources like SharePoint, Googl
 ---
 
 ### 🌐 [L3: MCP Servers](03_mcp_workshop.md)
-**Duration:** 30 minutes | **Level:** Advanced
+**Duration:** 20 minutes | **Level:** Advanced
 
 Learn how to connect your agents to custom data sources using MCP (Model Context Protocol).
 
@@ -233,8 +233,23 @@ Learn how to connect your agents to custom data sources using MCP (Model Context
 - Understanding MCP and why it matters
 - Setting up MCP servers in Agent Builder
 - Configuring Context7 for real-time data access
-- Combining multiple data sources
 - Managing costs and query limits
+
+---
+
+### ⚙️ [L4: MCP Nodes](04_mcp_nodes_workshop.md)
+**Duration:** 10 minutes | **Level:** Intermediate
+
+Learn how to add MCP Nodes to your agent workflows and connect them to MCP servers.
+
+**What you'll build:** A workflow that uses MCP Nodes to access real-time data when needed.
+
+**Key skills:**
+- Adding MCP Nodes to workflows
+- Configuring MCP Nodes to connect to MCP servers
+- Using MCP Nodes for different types of data access
+- Testing MCP Node functionality
+- Best practices for MCP Node usage
 
 ---
 
@@ -384,6 +399,28 @@ Timestamp: Oct 24, 2025, 2:45 PM
 
 ---
 
+## Practice Exercises
+
+**Beginner Level:**
+- Complete [L1: File Search](01_file_search_workshop.md) with your own documents
+- Add Google Drive connector to your HR agent (see [L2: Connectors](02_connectors_workshop.md))
+- Upload some policy documents to Drive and test that your agent can find them
+
+**Intermediate Level:**
+- Complete [L2: Connectors](02_connectors_workshop.md) with multiple data sources
+- Add [L4: MCP Nodes](04_mcp_nodes_workshop.md) to your workflow
+- Combine SharePoint + Google Drive with priority routing
+- Test with questions that might be in either location
+
+**Advanced Level:**
+- Complete all four labs: [L1: File Search](01_file_search_workshop.md), [L2: Connectors](02_connectors_workshop.md), [L3: MCP Servers](03_mcp_workshop.md), and [L4: MCP Nodes](04_mcp_nodes_workshop.md)
+- Build an agent with 3 data sources:
+  - SharePoint (company policies)
+  - Google Drive (project documents)
+  - Context7 (market data via MCP Nodes)
+- Create a question that uses all three sources
+
+---
 
 ### Preparation for Session 6
 
