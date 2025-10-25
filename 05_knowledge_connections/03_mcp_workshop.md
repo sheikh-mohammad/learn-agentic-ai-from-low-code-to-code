@@ -1,7 +1,7 @@
 # Workshop 3: MCP Servers
 ## Connecting to Context7 for Real-Time Data
 
-**Duration:** 40 minutes  
+**Duration:** 20 minutes  
 **Level:** Advanced  
 **Prerequisites:** Completed Workshops 1 and 2, access to OpenAI platform
 
@@ -52,8 +52,7 @@ Context7 is an online service that provides real-time market data, news, and res
 
 ### Step 1: Access MCP Settings
 
-1. In Agent Builder, go to "Tools" or "MCP" section
-2. Look for "Model Context Protocol" or "MCP Servers"
+1. In Agent Builder, go to Agent -> "Tools" -> "MCP" section
 3. Click "Add MCP Server" or "Configure MCP"
 
 ### Step 2: Configure Context7 Connection
