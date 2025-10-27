@@ -234,6 +234,8 @@ This section provides a hands-on experience with the core components of Agent Bu
 
 [View the Class Hands-on Project Details](./class_handson_project.md)
 
+Assignment linkage: Use insights from `../assignments/01_agentic_ai_usecase.md` to choose a realistic workflow and acceptance criteria for your agent.
+
 ---
 
 ## Part 6: Understanding the Results (10 minutes)

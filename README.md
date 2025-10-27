@@ -73,7 +73,7 @@ By the end, participants can:
 * Assignment 1 Real AI Agents Reserach Discussion
 * Introduction to AI Agents
 
-**Session 4: [What is an “agent” (no code)?](./03_no_code_agents/readme.md) (2h)**
+**Session 4: [What is an “agent” (no code)?](./04_no_code_agents/readme.md) (2h)**
 
 * The AgentKit stack at a glance: Agent Builder (visual), Connector Registry (admin), ChatKit (UI), Evals (quality), Guardrails (safety).
 * Concepts in human terms: tasks, tools, multi-step flows, agent handoffs, memory/sessions.
@@ -107,7 +107,7 @@ By the end, participants can:
   
   **Lab:** Deploy your agent’s chat UI, set a custom name/avatar, and invite 3 pilot testers. ([OpenAI][3])
 
-**Session 8: Evals you’ll actually use (2–3h)**
+**Session 8: [Evals you’ll actually use](./08_evals/readme.md) (2–3h)**
 
 * Designing a simple eval dataset from real tickets/prompts.
 * **Trace grading**: grading whole runs to spot brittle steps.
@@ -118,7 +118,7 @@ By the end, participants can:
 
 ### Week 5 — Quality: Guardrails, Observe, Governance and Iterate
 
-**Session 9: Observability & cost control (2h)**
+**Session 9: [Observability & cost control](./09_observability/readme.md) (2h)**
 
 * Reading traces; identifying tool-call loops and dead ends.
 * Lightweight A/Bs: instruction tweaks and guardrail thresholds.
@@ -126,7 +126,7 @@ By the end, participants can:
   
   **Lab:** Use traces to remove one redundant step and reduce tokens/time per task. ([OpenAI][1])
 
-**Session 10: Guardrails & governance (2–3h)**
+**Session 10: [Guardrails & governance](./10_guardrails/readme.md) (2–3h)**
 
 * The **Guardrails Wizard**: select checks (moderation, jailbreak, PII, hallucinations) and set policies—no code.
 * Human approvals & audit trails; rollout controls and change management.
@@ -135,7 +135,7 @@ By the end, participants can:
 
 ### Week 6 — Capstone
 
-**Session 11: Capstone build & publish (2–3h)**
+**Session 11: [Capstone build & publish](./11_capstone/readme.md) (2–3h)**
 
 * Finalize workflow, run evals, harden guardrails, and polish the ChatKit UI.
 * Write a one-page “launch note”: scope, metrics, SLAs, rollback plan.

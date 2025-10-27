@@ -1,4 +1,4 @@
-# Assignment: Find One Real Agentic AI Use Case
+# Assignment: Find One Real Agentic AI Use Case (Given after Session 3; feeds Session 4 project)
 
 **Time:** 1 week
 **For:** Everyone (grade 10 students to professionals)
