@@ -15,8 +15,6 @@ Supplementary Learning Material:
 **[Taking a Self-Assessment Quiz](./quiz.md)**
 
 
-
-
 <img src="growth.jpg" alt="drawing" width="400"/>
 
 ChatGPT has reached 800 million users in just two years, a milestone that took the internet 13 years to reach. 
@@ -25,6 +23,10 @@ The data, highlighted by the Financial Times and confirmed by Sam Altman, marks 
 Source: Financial Times
 
 <img src="./countries.jpg" alt="drawing" width="400"/>
+
+OpenAI is forecasting revenue to surge to $100 billion, a pace never seen before in the tech world.
+
+<img src="./revenue.jpg" alt="drawing" width="400"/>
 
 ---
 
