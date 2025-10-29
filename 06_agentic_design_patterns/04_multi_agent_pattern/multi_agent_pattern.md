@@ -1,17 +1,22 @@
-## Agentic Design Pattern - Multi-Agent (20 minutes)
+# Example Use Case: Task Planning Assistant
 
-### What is Multi-Agent?
+**Scenario:** User says, "Help me plan my day so I can stay focused and not forget my meetings."
 
-**Multi-Agent** systems use multiple specialized agents working together. Each agent has specific expertise and they hand off work to each other based on need.
+**Router Agent:**  
+Analyzes the request and decides it’s a **schedule** task → routes to **Schedule Agent**.
 
-**The Process:**
-1. Router agent analyzes the request
-2. Router determines which specialist is needed
-3. Request is handed off to specialist
-4. Specialist uses their expertise and tools
-5. If specialist can't solve it, escalate to human
+**Schedule Agent:**  
+Creates a simple daily plan with time blocks.
 
-### How to Implement Multi-Agent in Agent Builder
+If the user also needs focus tips or reminders:  
+- **Focus Agent** gives short tips (e.g., “Use Pomodoro 50/10”).  
+- **Reminder Agent** adds quick reminders (e.g., “08:45 — Prep for meeting”).
+
+If the request is unclear → **Escalation Agent** asks a clarifying question.
+
+---
+
+## How to Implement Multi-Agent in Agent Builder
 
 **Visual Structure:**
 ```
@@ -71,25 +76,7 @@ Schedule   Focus    Reminder  ← Specialist Agents
    - **Escalation Agent:**  
      "Ask a simple clarifying question to get missing info (e.g., 'What time does your workday start?') or flag for human review."
 
-### Example Use Case: Task Planning Assistant
-
-**Scenario:** User says, "Help me plan my day so I can stay focused and not forget my meetings."
-
-**Router Agent:**  
-Analyzes the request and decides it’s a **schedule** task → routes to **Schedule Agent**.
-
-**Schedule Agent:**  
-Creates a simple daily plan with time blocks.
-
-If the user also needs focus tips or reminders:  
-- **Focus Agent** gives short tips (e.g., “Use Pomodoro 50/10”).  
-- **Reminder Agent** adds quick reminders (e.g., “08:45 — Prep for meeting”).
-
-If the request is unclear → **Escalation Agent** asks a clarifying question.
-
----
-
-### Key Nodes for Multi-Agent Pattern
+## Key Nodes for Multi-Agent Pattern
 
 - **Router Agent**
 - **If/Else routing**
