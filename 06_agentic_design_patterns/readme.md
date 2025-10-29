@@ -86,7 +86,7 @@ Start → Agent (draft) → Agent (critic) → If good → Response
    - Prompt: "Improve this response. Make it more accurate, complete, and polite"
    - This agent fixes any issues
 
-### Example Use Case: [Essay Generator](./01_reflection_example/readme.md)
+### Example Use Case: [Essay Generator](./01_reflection_pattern/readme.md)
 
 ---
 
@@ -172,7 +172,7 @@ Start → Agent (planner)
 4. Specialist uses their expertise and tools
 5. If specialist can't solve it, escalate to human
 
-### Example Use Case: [Task Planning Assistant](./04_multi_agent_pattern/readme.md)
+### Example Use Case: [Task Planning Assistant](./04_multi_agent_pattern/multi_agent_pattern.md)
 
 ---
 
@@ -190,7 +190,7 @@ Start → Agent (planner)
 5. Specialist agent returns result to primary agent
 6. Primary agent continues with the complete workflow
 
-### Example Use Case: [Grammar Correction Assistant](./05_handoff_delegation_pattern/readme.md)
+### Example Use Case: [Grammar Correction Assistant](./05_handoff_delegation_pattern/handoff_delegation_pattern.md)
 
 ---
 
