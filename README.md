@@ -90,7 +90,7 @@ By the end, participants can:
   
   **Lab:** Attach a small policy pack (PDFs/Docs), configure retrieval, and test relevance safely. ([OpenAI][1])
 
-**Session 6: Visual design patterns (2–3h)**
+**Session 6: [Agentic design patterns](./06_agentic_design_patterns/readme.md) (2–3h)**
 
 * Drag-and-drop nodes: tools, file search, guardrails, decision/branching, human-in-the-loop.
 * Multi-agent patterns via handoffs—when and why to split responsibilities.
