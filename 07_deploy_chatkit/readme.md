@@ -1,5 +1,4 @@
 # Session 7: Deploy with ChatKit
-
 ## From Agent Builder to Production Chat Interface
 
 **Duration:** 2 hours  
@@ -505,7 +504,7 @@ chatkit-starter-app/
 │   └── ChatKitPanel.tsx          # The ChatKit component
 │
 ├── lib/
-│   └── config.ts                # Configuration (IMPORTANT!)
+│   └── config.ts                # Configuration
 │
 ├── public/                       # Images, assets
 │
@@ -520,7 +519,8 @@ chatkit-starter-app/
 | File | Purpose | What You Do |
 |------|---------|------------|
 | `.env.example` | Environment variables template | Copy to `.env.local` |
-| `lib/config.ts` | Configuration file | add your configuration |
+| `lib/config.ts` | Centralized configuration (Option 1)  | Update GREETING, PLACEHOLDER_INPUT, STARTER_PROMPTS |
+| `components/ChatKitPanel.tsx` | ChatKit component wrapper (Option 2) | Paste theme, composer, startScreen directly into useChatKit() |
 | `.env.local` | Local environment variables | Add API key and Workflow ID |
 | `package.json` | Dependencies and scripts |  Install deps & run scripts |
 
@@ -788,7 +788,7 @@ ChatKit Studio is like a **visual designer for your chat interface**. It lets yo
 
 **This is exactly what your users will see!**
 
-### 💾 Step 9: Export Code & Map to Your Project Config
+### 💾 Step 9: Export Code & Choose Your Integration Method
 
 Once you're happy with your design:
 
@@ -796,364 +796,149 @@ Once you're happy with your design:
    - The playground generates TypeScript code for your configuration
    - This is `ChatKitOptions` ready to use
 
-2. **Map the exported code to your existing `lib/config.ts`**
-
-   Since your starter app already has a configured structure, you'll **map** ChatKit Studio properties to existing variables:
-
-   | ChatKit Studio Property | Your Config Variable | How |
-   |-------------------------|----------------------|-----|
-   | `startScreen.greeting` | `GREETING` | Direct text assignment |
-   | `composer.placeholder` | `PLACEHOLDER_INPUT` | Direct text assignment |
-   | `startScreen.prompts` | `STARTER_PROMPTS` | Array of prompt objects |
-   | `theme.*` (all theme properties) | `getThemeConfig()` return value | Merge into theme object |
-
-3. **Update `lib/config.ts` with properties from ChatKit Studio:**
-
-   **For Greeting & Placeholder:**
-   ```typescript
-   export const GREETING = "Hello! How can I help you with?";  // from startScreen.greeting
-   export const PLACEHOLDER_INPUT = "Message the AI";  // from composer.placeholder
-   ```
-
-   **For Conversation Starters:**
-   ```typescript
-   export const STARTER_PROMPTS: StartScreenPrompt[] = [
-     {
-       label: "What is ChatKit?",
-       prompt: "What is ChatKit?",
-       icon: "circle-question",
-     },
-     {
-       label: "Search latest AI news",
-       prompt: "Search for the latest AI news",
-       icon: "search",
-     },
-     // ... add all prompts from your ChatKit Studio output
-   ];
-   ```
-
-   **For Theme (most important):**
-   ```typescript
-   export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
-     colorScheme: 'dark',  // from theme.colorScheme
-     radius: 'pill',        // from theme.radius
-     density: 'normal',     // from theme.density
-     color: {
-       grayscale: {
-         hue: 0,            // from theme.color.grayscale.hue
-         tint: 0,           // from theme.color.grayscale.tint
-         shade: theme === "dark" ? -1 : -4,
-       },
-       accent: {
-         primary: '#ffffff', // from theme.color.accent.primary
-         level: 1,           // from theme.color.accent.level
-       },
-       surface: {            // from theme.color.surface
-         background: '#212121',
-         foreground: '#303030'
-       }
-     },
-     typography: {          // from theme.typography (optional)
-       baseSize: 16,
-       fontFamily: '"OpenAI Sans", system-ui, -apple-system, BlinkMacSystemFont...'
-     }
-   });
-   ```
-
-**That's it!** You're mapping properties to the existing structure - no need to replace the entire file.
+2. **Choose one of TWO methods** to integrate this code into your project:
 
 ---
 
-## 7: Comprehensive Hands-On Lab
-**Duration: 35 minutes**
+## 📝 Two Methods Available
 
-### 🎯 Lab Objective
+There are **TWO methods** to apply ChatKit Studio settings. Choose the one that works best for your project.
 
-**Deploy your complete multi-agent system with a fully customized ChatKit interface.**
+### **Option 1: Direct Paste into `components/ChatKitPanel.tsx`**
 
-Here's exactly what we'll do, step-by-step:
+Paste the entire theme, composer, and startScreen code directly into the `useChatKit()`
 
-### 📋 Lab Checklist
+**Steps:**
 
-```
-□ Step 1: Deploy from Agent Builder (5 min)  [Covered in Part 4]
-□ Step 2: Clone and Configure App (10 min)   [Covered in Part 5]
-□ Step 3: Design in ChatKit Studio (10 min)  [Covered in Part 6]
-□ Step 4: Test Locally (5 min)               [Covered in Lab]
-□ Step 5: Prepare for Deployment (5 min)     [Covered in Lab]
-```
+1. **Copy from ChatKit Studio** the complete theme, composer, and startScreen objects
+2. **Open** `components/ChatKitPanel.tsx`
+3. **Find** the `useChatKit()` hook call
+4. **Paste** the entire code block into the hook
 
-### 🚀 Step 1: Deploy from Agent Builder (5 minutes)
+**Example:**
 
-**What we're doing:** Getting your Workflow ID
-
-1. **Open your agent in Agent Builder**
-   - This is the multi-agent system from Session 6
-   - With triage agent and all sub-agents
-
-2. **Click the "Deploy" button**
-   - Usually in top-right corner
-   - Wait for deployment to complete
-
-3. **Copy your Workflow ID**
-   - It looks like: `wf_abc123def456...`
-   - Save it in a text editor temporarily
-
-4. **Quick test:**
-   - Send one message
-   - Verify it responds
-   - Note the Workflow ID
-
-✅ **Done!** You now have your production Workflow ID.
-
-### 💻 Step 2: Clone and Configure App (10 minutes)
-
-**What we're doing:** Setting up your frontend application
-
-1. **Open terminal/command prompt**
-
-2. **Clone the ChatKit starter app:**
-   ```bash
-   git clone https://github.com/openai/chatkit-starter-app.git
-   cd chatkit-starter-app
-   npm install
-   ```
-
-3. **Create `.env.local` file:**
-   ```bash
-   # Copy the template
-   cp .env.example .env.local  # Mac/Linux
-   copy .env.example .env.local # Windows
-   ```
-
-4. **Edit `.env.local` with your values:**
-   ```env
-   NEXT_PUBLIC_CHATKIT_WORKFLOW_ID=wf_your_actual_workflow_id_here
-   OPENAI_API_KEY=sk-proj-your_actual_api_key_here
-   ```
-   - Replace with your actual values
-   - No quotes, no spaces
-
-5. **Note:** You'll add your ChatKit Studio configuration in Step 3 after designing
-   - For now, keep the default config
-   - You'll update `components/ChatKitPanel.tsx` later
-
-6. **Verify setup:**
-   ```bash
-   npm install
-   ```
-
-✅ **Done!** Your app structure is ready for configuration.
-
-### 🎨 Step 3: Design in ChatKit Studio Playground (10 minutes)
-
-**What we're doing:** Customizing your chat UI using the visual playground, then exporting the code
-
-#### Part A: Design in ChatKit Studio Playground (7 minutes)
-
-1. **Open ChatKit Studio Playground**
-   - Go to: https://chatkit.studio/playground
-   - Click on "Playground"
-   - No login required, no Workflow ID needed
-
-2. **Customize All Your Settings:**
-
-   **Theme & Colors:**
-   - Choose Light or Dark mode
-   - Set primary accent color (your brand color)
-   - Adjust grayscale hue, tint, shade
-   - Customize surface colors (background & foreground)
-
-   **Typography:**
-   - Choose font family
-   - Set base font size
-
-   **Style:**
-   - Choose border radius (sharp, sm, md, lg, round, full)
-   - Choose density (compact, normal, spacious)
-
-   **Start Screen:**
-   - Write your greeting message
-   - Example: "Hi! 👋 I can search the web, check weather, manage emails, and answer questions. What would you like to do?"
-
-   **Composer Settings:**
-   - Set placeholder text
-   - Example: "Ask me to search, check weather, or answer questions..."
-   - Add disclaimer message (optional)
-   - Toggle attachments on/off
-   - Toggle model picker on/off
-   - Toggle message actions (feedback, retry) on/off
-
-3. **Preview as You Customize:**
-   - See real-time preview on the right
-   - Test light and dark modes
-   - See exactly how it will look
-
-#### Part B: Export Code & Map to Your Project (3 minutes)
-
-1. **Click the "Code" button** in the playground
-   - The playground generates complete TypeScript code
-   - This contains all your customizations!
-
-2. **Map the code to your existing `lib/config.ts` structure**
-
-   **Don't paste the entire `ChatKitOptions` object!** Instead, map properties to your existing variables:
-
-   From ChatKit Studio output like:
-   ```typescript
-   const options: ChatKitOptions = {
-     theme: { colorScheme: 'dark', radius: 'pill', ... },
-     composer: { placeholder: 'Ask me to search...' },
-     startScreen: { greeting: 'Hi! 👋...', prompts: [...] },
-   };
-   ```
-
-   Extract and update your `lib/config.ts`:
-
-   ```typescript
-   // Update these three strings directly
-   export const GREETING = "Hi! 👋 I can search the web, check weather...";
-   export const PLACEHOLDER_INPUT = "Ask me to search, check weather, or answer questions...";
-
-   // Update this array with all prompts from ChatKit Studio
-   export const STARTER_PROMPTS: StartScreenPrompt[] = [
-     {
-       label: "Search latest AI news",
-       prompt: "Search for the latest news about artificial intelligence",
-       icon: "search",
-     },
-     // ... add all other prompts from ChatKit Studio
-   ];
-
-   // Update getThemeConfig() with all theme properties from ChatKit Studio
-   export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
-     colorScheme: 'dark',
-     radius: 'pill',
-     density: 'normal',
-     color: {
-       grayscale: {
-         hue: 220,
-         tint: 6,
-         shade: theme === "dark" ? -1 : -4,
-       },
-       accent: {
-         primary: '#2563EB',
-         level: 2,
-       },
-       surface: {
-         background: '#212121',
-         foreground: '#303030'
-       }
-     },
-     typography: {
-       baseSize: 16,
-       fontFamily: 'Inter, sans-serif'
-     }
-   });
-   ```
-
-3. **That's it!**
-   - You're updating your existing structure, not replacing it
-   - No manual typing, just copy values from ChatKit Studio
-   - Your app automatically updates thanks to hot reload!
-
-✅ **Done!** Your entire design is now configured in your code.
-
-### 🧪 Step 4: Run Dev Server & Test Locally (5 minutes)
-
-**What we're doing:** Starting your app and verifying everything works
-
-1. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-   - You'll see output like: `✓ Ready in X.Xs`
-   - App opens at: http://localhost:3000
-
-2. **Open in browser:**
-   - Go to http://localhost:3000
-   - You should see your ChatKit interface with your customizations!
-
-**What to verify:**
-
-```
-✓ Chat interface loads
-✓ Custom colors/theme appear
-✓ Welcome message shows
-✓ Conversation starters visible
-
-✓ Test Message 1: "Search for latest AI news"
-  Expected: Routes to Web Search Agent
-  Verify: Returns search results
-
-✓ Test Message 2: "What's the weather in Karachi?"
-  Expected: Routes to Weather Agent
-  Verify: Returns data in widget format
-  Bonus: Widget renders beautifully!
-
-✓ Test Message 3: "Check my emails"
-  Expected: Routes to Gmail Agent
-
-✓ Test Message 4: "Explain quantum computing"
-  Expected: Routes to QNA Agent
-
-✓ Mobile test: View on phone-size screen
-  Expected: Interface adapts properly
+```typescript
+const chatkit = useChatKit({
+  api: { getClientSecret },
+  theme: {
+    colorScheme: 'dark',
+    radius: 'pill',
+    density: 'normal',
+    color: {
+      grayscale: { hue: 190, tint: 5 },
+      accent: { primary: '#22ffff', level: 1 }
+    },
+    typography: { baseSize: 16, fontFamily: '...' }
+  },
+  composer: {
+    placeholder: 'Message the AI',
+    attachments: { enabled: true, maxCount: 5, maxSize: 10485760 }
+  },
+  startScreen: {
+    greeting: 'Hello! How can I help you with?',
+    prompts: [{ icon: 'circle-question', label: 'What is ChatKit?', prompt: 'What is ChatKit?' }]
+  },
+});
 ```
 
-**All tests passing?** Excellent! Your app is working perfectly.
-
-### 📦 Step 5: Prepare for Deployment (5 minutes)
-
-**What we're doing:** Getting your code ready to deploy
-
-1. **Commit your customizations:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Configure ChatKit with custom theme, greeting, and prompts"
-   ```
-
-2. **Push to GitHub (optional, but recommended):**
-   ```bash
-   # Create repo on github.com
-   git remote add origin https://github.com/your-username/your-repo.git
-   git branch -M main
-   git push -u origin main
-   ```
-   - This makes deployment to Vercel/Netlify super easy!
-
-3. **Verify your setup:**
-   - ✓ `.env.local` has NEXT_PUBLIC_CHATKIT_WORKFLOW_ID
-   - ✓ `.env.local` has OPENAI_API_KEY
-   - ✓ `lib/config.ts` has your customizations
-   - ✓ App runs with `npm run dev`
-   - ✓ All test scenarios pass
-
-✅ **Lab Complete!** You have a working, fully customized ChatKit application ready to deploy!
-
-### 💡 Pro Tips for the Lab
-
-**Tip 1: Test Thoroughly**
-- Don't skip testing - catch issues early
-- Test on both desktop and mobile
-- Try edge cases ("help!", "test", gibberish)
-
-**Tip 2: Iterate on Design**
-- If colors don't look good, edit `lib/config.ts` and adjust colors
-- Adjust conversation starters based on your actual use cases
-- Thanks to hot reload, see changes instantly!
-- Use ChatKit Studio playground to visualize options before coding
-
-**Tip 3: Document as You Go**
-- Note your Workflow ID (keep it safe!)
-- Save your API key securely (use .env.local, don't share)
-- Create a checklist of test scenarios
-- Remember your customizations are all in `lib/config.ts`
+**Advantages:**
+- ✅ All configuration in one place in the component
+- ✅ Easy to see exactly what's being used
+- ✅ Great for small projects or single configuration
 
 ---
 
-## 8: Deployment to Vercel
+### **Option 2: Map to `lib/config.ts`**
+
+Map ChatKit Studio values to your existing config variables. This keeps your component clean and configuration centralized.
+
+**Steps:**
+
+1. **Get the ChatKit Studio export** with theme, composer, and startScreen objects
+2. **Update `lib/config.ts`** with values from ChatKit Studio
+3. **Reference the config** in `components/ChatKitPanel.tsx`
+
+**Update `lib/config.ts` with properties from ChatKit Studio:**
+
+**For Greeting & Placeholder:**
+```typescript
+export const GREETING = "Hello! How can I help you with?";  // from startScreen.greeting
+export const PLACEHOLDER_INPUT = "Message the AI";  // from composer.placeholder
+```
+
+**For Conversation Starters:**
+```typescript
+export const STARTER_PROMPTS: StartScreenPrompt[] = [
+  {
+    label: "What is ChatKit?",
+    prompt: "What is ChatKit?",
+    icon: "circle-question",
+  },
+  {
+    label: "Search latest AI news",
+    prompt: "Search for the latest AI news",
+    icon: "search",
+  },
+  // ... add all prompts from your ChatKit Studio output
+];
+```
+
+**For Theme:**
+```typescript
+export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
+  colorScheme: 'dark',  // from theme.colorScheme
+  radius: 'pill',        // from theme.radius
+  density: 'normal',     // from theme.density
+  color: {
+    grayscale: {
+      hue: 0,            // from theme.color.grayscale.hue
+      tint: 0,           // from theme.color.grayscale.tint
+      shade: theme === "dark" ? -1 : -4,
+    },
+    accent: {
+      primary: '#ffffff', // from theme.color.accent.primary
+      level: 1,           // from theme.color.accent.level
+    },
+    surface: {            // from theme.color.surface
+      background: '#212121',
+      foreground: '#303030'
+    }
+  },
+  typography: {          // from theme.typography (optional)
+    baseSize: 16,
+    fontFamily: '"OpenAI Sans", system-ui, -apple-system, BlinkMacSystemFont...'
+  }
+});
+```
+
+**Your component stays clean:**
+```typescript
+const chatkit = useChatKit({
+  api: { getClientSecret },
+  theme: {
+    colorScheme: theme,
+    ...getThemeConfig(theme),  // Uses values from lib/config.ts
+  },
+  startScreen: {
+    greeting: GREETING,         // Uses values from lib/config.ts
+    prompts: STARTER_PROMPTS,   // Uses values from lib/config.ts
+  },
+  composer: {
+    placeholder: PLACEHOLDER_INPUT,  // Uses values from lib/config.ts
+    attachments: { enabled: true },
+  },
+});
+```
+
+**Advantages:**
+- ✅ Configuration separated from component logic
+- ✅ Easy to maintain and update
+- ✅ Reusable across multiple components
+- ✅ Great for larger projects or multiple configurations
+
+---
+
+## 7: Deployment to Vercel
 **Duration: 20 minutes**
 
 ### 🌐 Deploy Your ChatKit App to Production
@@ -1172,11 +957,119 @@ We'll use **Vercel** - the easiest and most recommended option for Next.js appli
 - ✅ Built-in environment variable management
 - ✅ Automatic HTTPS
 
-### 🚀 Deploy to Vercel (Step-by-step)
+### 🚀 Deploy to Vercel - Choose Your Method
 
-**Step 1: Push Your Project to GitHub**
+You have **TWO options** to deploy your ChatKit app to Vercel. Choose the one that works best for you:
 
-Before deploying to Vercel, your code needs to be on GitHub (Vercel connects to GitHub).
+---
+
+## 📊 Two Deployment Methods Available
+
+**Option 1: Vercel CLI** (Faster, command-line based)
+- Install Vercel CLI globally
+- Deploy directly from your terminal
+- Perfect for developers who prefer CLI
+- Faster for repeat deployments
+
+**Option 2: GitHub + Vercel Dashboard** (Visual, easier for beginners)
+- Push code to GitHub first
+- Connect GitHub to Vercel in dashboard
+- Import project visually
+- Perfect for those new to deployments
+- Automatic continuous deployment
+
+---
+
+### **Option 1: Deploy Using Vercel CLI**
+
+**Best for:** Developers comfortable with command line, faster deployment
+
+#### Step 1: Create a Vercel Account
+
+1. Go to https://vercel.com
+2. Click "Sign Up"
+3. You're now ready to deploy via CLI!
+
+#### Step 2: Install Vercel CLI
+
+```bash
+npm install -g vercel
+```
+
+#### Step 3: Login to Vercel
+
+```bash
+vercel login
+```
+- Your browser will open
+- Authorize the Vercel CLI
+- You're now authenticated
+
+#### Step 4: Deploy Your App
+
+Navigate to your project directory and run:
+
+```bash
+vercel
+```
+
+#### Step 5: Answer the Deployment Questions
+
+Vercel will ask you several questions:
+
+```
+? Set up and deploy? [Y/n] → Press Enter (Y)
+? Which scope do you want to deploy to? → Select your username
+? Link to existing project? [y/N] → Press N (for first deployment)
+? What's your project's name? → chatkit-app (or your name)
+? In which directory is your code located? → Press Enter (.)
+? Want to modify these settings before deploying? [y/N] → Press N
+```
+
+#### Step 6: Add Environment Variables
+
+After the first deployment, add your environment variables:
+
+```bash
+vercel env add NEXT_PUBLIC_CHATKIT_WORKFLOW_ID
+vercel env add OPENAI_API_KEY
+```
+
+For each command:
+- Paste your value
+- Select environment: `Production`
+- Press Enter
+
+#### Step 7: Redeploy with Environment Variables
+
+```bash
+vercel --prod
+```
+
+Your app is now live!
+
+#### Step 8: Get Your URL
+
+Vercel shows your deployment URL in the terminal:
+```
+✓ Production: https://chatkit-app.vercel.app
+```
+
+**Advantages:**
+- ✅ Quick deployment from terminal
+- ✅ No GitHub setup required
+- ✅ Faster for experienced developers
+- ✅ Perfect for CI/CD pipelines
+
+---
+
+### **Option 2: Deploy Using GitHub + Vercel Dashboard**
+
+**Best for:** Visual learners, first-time deployments, easier to manage
+
+#### Step 1: Push Your Project to GitHub
+
+Before deploying to Vercel, your code needs to be on GitHub.
 
 1. **Initialize git repository** (if not already done):
    ```bash
@@ -1211,21 +1104,21 @@ Before deploying to Vercel, your code needs to be on GitHub (Vercel connects to 
    - Go to your repository on github.com
    - You should see all your project files there
 
-**Step 2: Create a Vercel Account**
+#### Step 2: Create a Vercel Account
 
 1. Go to https://vercel.com
 2. Click "Sign Up"
 3. Sign up with GitHub (recommended - easiest option)
 4. Authorize Vercel to access your GitHub account
 
-**Step 3: Import Your Project to Vercel**
+#### Step 3: Import Your Project to Vercel
 
 1. After signing in, click "Add New..." → "Project"
 2. Select "Import Git Repository"
 3. Find your `chatkit-app` repository in the list
 4. Click "Import"
 
-**Step 4: Configure Environment Variables**
+#### Step 4: Configure Environment Variables
 
 1. You'll see a "Environment Variables" section
 2. Add your secrets:
@@ -1236,7 +1129,7 @@ Before deploying to Vercel, your code needs to be on GitHub (Vercel connects to 
 3. Click "Add" for each variable
 4. Make sure values have no quotes and no extra spaces
 
-**Step 5: Deploy**
+#### Step 5: Deploy
 
 1. Click "Deploy"
 2. Vercel builds and deploys your app
@@ -1245,7 +1138,7 @@ Before deploying to Vercel, your code needs to be on GitHub (Vercel connects to 
 
 **Example URL:** `https://chatkit-app.vercel.app`
 
-**Step 6: Test Your Live App**
+#### Step 6: Test Your Live App
 
 1. Click on the URL Vercel provides
 2. Your ChatKit app opens in browser
@@ -1255,80 +1148,18 @@ Before deploying to Vercel, your code needs to be on GitHub (Vercel connects to 
    - Test multi-agent routing
    - Verify widget rendering
 
----
-
-### 🚀 Alternative: Deploy Using Vercel CLI
-
-If you prefer using the command line instead of the dashboard, you can deploy using the Vercel CLI.
-
-**Step 1: Install Vercel CLI**
-
-```bash
-npm install -g vercel
-```
-
-**Step 2: Login to Vercel**
-
-```bash
-vercel login
-```
-- Your browser will open
-- Authorize the Vercel CLI
-- You're now authenticated
-
-**Step 3: Deploy Your App**
-
-Navigate to your project directory and run:
-
-```bash
-vercel
-```
-
-**Step 4: Answer the Deployment Questions**
-
-Vercel will ask you several questions:
-
-```
-? Set up and deploy? [Y/n] → Press Enter (Y)
-? Which scope do you want to deploy to? → Select your username
-? Link to existing project? [y/N] → Press N (for first deployment)
-? What's your project's name? → chatkit-app (or your name)
-? In which directory is your code located? → Press Enter (.)
-? Want to modify these settings before deploying? [y/N] → Press N
-```
-
-**Step 5: Add Environment Variables**
-
-After the first deployment, add your environment variables:
-
-```bash
-vercel env add NEXT_PUBLIC_CHATKIT_WORKFLOW_ID
-vercel env add OPENAI_API_KEY
-```
-
-For each command:
-- Paste your value
-- Select environment (Production, Preview, or Development)
-- Press Enter
-
-**Step 6: Redeploy with Environment Variables**
-
-```bash
-vercel --prod
-```
-
-Your app is now live!
-
-**Step 7: Get Your URL**
-
-Vercel shows your deployment URL in the terminal:
-```
-✓ Production: https://chatkit-app.vercel.app
-```
+**Advantages:**
+- ✅ Visual step-by-step process
+- ✅ GitHub integration built-in
+- ✅ Easy for beginners
+- ✅ Automatic continuous deployment on push
+- ✅ Easy to manage in dashboard
 
 ---
 
-### 💾 Keep Code in Sync with GitHub
+### 💾 Continuous Deployment with GitHub (Option 2 users)
+
+If you used Option 2, your deployments are now **automatic**!
 
 **To update your live app:**
 
@@ -1347,14 +1178,20 @@ Vercel shows your deployment URL in the terminal:
 
 ---
 
-### 📊 Dashboard vs CLI: Which Should You Use?
+### 📊 Which Method Should You Choose?
 
-| Method | Best For | Steps |
-|--------|----------|-------|
-| **Dashboard** (First method) | First-time users, visual learners | Easy, step-by-step, see everything in UI |
-| **Vercel CLI** (Alternative) | Command-line users, faster deployment | Quicker, works from terminal, scriptable |
+| Aspect | Option 1: CLI | Option 2: GitHub + Dashboard |
+|--------|---|---|
+| **Ease of Use** | Requires command line knowledge | Visual, step-by-step |
+| **Speed** | Very fast | Slightly slower (GitHub sync required) |
+| **Best For** | Experienced developers | Beginners, visual learners |
+| **Setup Time** | 5 minutes | 10 minutes |
+| **GitHub Integration** | Optional | Automatic, built-in |
+| **Continuous Deployment** | Manual (optional) | Automatic |
 
-**Recommendation:** Use the Dashboard method if you're new to deployments. Use the CLI method if you're comfortable with terminal commands.
+**Recommendation:**
+- **New to deployments?** Use Option 2 (GitHub + Dashboard)
+- **Comfortable with CLI?** Use Option 1 (Vercel CLI)
 
 ---
 
@@ -1523,9 +1360,9 @@ Before you go live, verify:
 
 ---
 
-## 🎉 Summary & What You've Accomplished
+## 🎉 Quick Review & Summary
 
-### You've Learned:
+### Class Recap - What You've Learned:
 
 ✅ **Part 1: Introduction to ChatKit**
 - What ChatKit is and why you should use it
@@ -1558,12 +1395,7 @@ Before you go live, verify:
 - Creating conversation starters
 - Mapping configuration to your code
 
-✅ **Part 7: Comprehensive Hands-On Lab**
-- Putting everything together end-to-end
-- Testing all multi-agent routing
-- Verifying widget rendering locally
-
-✅ **Part 8: Deployment to Vercel**
+✅ **Part 7: Deployment to Vercel**
 - Deploying to production with Vercel (two methods: Dashboard & CLI)
 - Adding domain to OpenAI security allowlist
 - Sharing with pilot testers and collecting feedback
@@ -1576,13 +1408,18 @@ Before you go live, verify:
 4. **Share working prototypes** with stakeholders in minutes
 5. **Iterate quickly** based on user feedback
 
-### 📚 Next Steps After This Session:
+### 📚 After Class - Your Implementation Tasks:
 
-1. **Deploy your actual agents** using this workflow
-2. **Collect real user feedback**
-3. **Iterate on design** based on feedback
-4. **Add custom tools and integrations**
-5. **Scale to production** with confidence
+These are the steps to complete after watching the class:
+
+1. **Deploy your Session 6 agent** from Agent Builder and copy the Workflow ID
+2. **Clone the ChatKit starter app** and set up environment variables
+3. **Design your interface** in ChatKit Studio Playground
+4. **Map configuration** to your code (Option 1 or Option 2)
+5. **Test locally** by running `npm run dev`
+6. **Deploy to Vercel** using Dashboard or CLI method
+7. **Add domain** to OpenAI security allowlist
+8. **Share with testers** and collect feedback
 
 ### 💡 Remember These Key Points:
 
@@ -1613,10 +1450,17 @@ You now have the complete skill set to:
 
 ```
 .env.local                    → Your secrets (Workflow ID, API Key)
-lib/config.ts                 → Theme, starters, branding
-components/ChatKitPanel.tsx   → ChatKit configuration
-app/api/create-session/route  → Backend endpoint (don't change)
+lib/config.ts                 → Theme, starters, branding (Option 1 approach)
+components/ChatKitPanel.tsx   → ChatKit component & useChatKit hook (Option 2 approach)
 ```
+
+**Key Files Explained:**
+
+| File | Purpose | What You Do |
+|------|---------|------------|
+| `.env.local` | Store sensitive credentials | Add NEXT_PUBLIC_CHATKIT_WORKFLOW_ID and OPENAI_API_KEY |
+| `lib/config.ts` | Centralized configuration (Option 1) | Update GREETING, PLACEHOLDER_INPUT, STARTER_PROMPTS, getThemeConfig() |
+| `components/ChatKitPanel.tsx` | ChatKit component wrapper (Option 2) | Paste theme, composer, startScreen directly into useChatKit() |
 
 ### Critical Values to Save:
 
@@ -1649,26 +1493,27 @@ Deployed URL:   https://...
 
 ## 🎓 Learning Outcomes Assessment
 
-By the end of this session, you should be able to:
+By the end of this class session, you should understand:
 
-**Knowledge:**
-- [ ] Explain how Agent Builder, ChatKit Studio, and ChatKit App work together
-- [ ] Describe what a Workflow ID is and why it's important
-- [ ] List the steps to deploy an agent and get a Workflow ID
-- [ ] Understand how multi-agent routing works in practice
+**Knowledge (During Class):**
+- [ ] What ChatKit is and why it's valuable for deploying AI agents
+- [ ] The difference between ChatKit, Agent Builder, and AgentKit
+- [ ] How Agent Builder, ChatKit Studio, and ChatKit App work together
+- [ ] What a Workflow ID is and why it's critical for deployment
+- [ ] The complete workflow: Deploy → Configure → Design → Deploy to Vercel
+- [ ] Two methods for integrating ChatKit Studio configuration (Direct Paste vs Config Mapping)
+- [ ] How to set up environment variables securely
+- [ ] Why domain allowlist configuration is important for security
 
-**Skills:**
-- [ ] Deploy an agent from Agent Builder
-- [ ] Design a chat interface using ChatKit Studio
-- [ ] Clone and configure the ChatKit starter app
-- [ ] Run the app locally and test it
-- [ ] Deploy to Vercel or Netlify
-
-**Practical Application:**
-- [ ] Take your Session 6 multi-agent system and deploy it
-- [ ] Create a custom UI with your branding
-- [ ] Share a working prototype with pilot testers
-- [ ] Collect feedback and iterate
+**After Class - Implementation Tasks:**
+- [ ] Deploy an agent from Agent Builder and get a Workflow ID
+- [ ] Clone and configure the ChatKit starter app locally
+- [ ] Design a chat interface using ChatKit Studio Playground
+- [ ] Integrate ChatKit Studio configuration into your code
+- [ ] Run the app locally with `npm run dev` and verify it works
+- [ ] Deploy to Vercel using Dashboard or CLI method
+- [ ] Add your domain to OpenAI's security allowlist
+- [ ] Share your live app with pilot testers and gather feedback
 
 ---
 
