@@ -2,9 +2,9 @@
 
 ## From Agent Builder to Production Chat Interface
 
-**Duration:** 2 hours
-**Level:** Intermediate
-**Prerequisites:** Sessions 4-6 (Agent Builder, Knowledge Connections, Visual Patterns)
+**Duration:** 2 hours  
+**Level:** Intermediate  
+**Prerequisites:** Sessions 4-6 (Agent Builder, Knowledge Connections, Visual Patterns)  
 
 ---
 
