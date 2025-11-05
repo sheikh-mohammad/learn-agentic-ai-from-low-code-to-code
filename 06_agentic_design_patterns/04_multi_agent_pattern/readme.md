@@ -57,13 +57,40 @@ Schedule   Focus    Reminder  ← Specialist Agents
      { "route": "schedule" }
      ```
 
-2. **Add If/Else Routing:**  
+2. **Configure Structured Output Schema**
+
+The Router Agent’s job is to analyze the user’s request and decide which specialized agent (Schedule, Focus, Reminder, or Escalation) should handle it.  
+To make its decision machine-readable, we’ll configure a structured JSON output with an **enum** field.
+
+1. In **OpenAI Agent Builder**, open your **Router Agent** settings  
+2. Scroll down to the **Output format** field  
+3. Select **JSON** from the dropdown  
+4. A **Structured Output (JSON)** dialog will open  
+5. Click **Add property** and configure as follows:
+
+   - **Name:** `route`  
+   - **Type:** `ENUM`  
+   - **Description:** `Determines which specialist agent should handle the user’s request`  
+   - **Enum values:**  
+     - `schedule` — When the user wants help planning their day or tasks  
+     - `focus` — When the user needs productivity or focus-related tips  
+     - `reminder` — When the user needs time-based reminders or notifications  
+     - `escalate` — When the intent is unclear or additional clarification is needed  
+
+**Final Schema Structure:**
+```json
+{
+  "route": "enum[schedule | focus | reminder | escalate]"
+}
+```
+
+3. **Add If/Else Routing:**  
    - If `"route" == "schedule"` → **Schedule Agent**  
    - Else if `"route" == "focus"` → **Focus Agent**  
    - Else if `"route" == "reminder"` → **Reminder Agent**  
    - Else → **Escalation Agent**  
 
-3. **Create Specialist Agents:**  
+4. **Create Specialist Agents:**  
    - **Schedule Agent:**  
      "You create a simple daily schedule with realistic time blocks (e.g., 09:00–10:00 — Meeting).    
    - **Focus Agent:**  
@@ -71,7 +98,7 @@ Schedule   Focus    Reminder  ← Specialist Agents
    - **Reminder Agent:**  
      "You generate short, time-based reminders (e.g., 08:45 — Prep for Meeting).  
 
-4. **Add Escalation Path (Fallback Case):**  
+5. **Add Escalation Path (Fallback Case):**  
    - Triggered when the Router cannot confidently classify the request or a specialist reports missing info.  
    - **Escalation Agent:**  
      "Ask a simple clarifying question to get missing info (e.g., 'What time does your workday start?') or flag for human review."
