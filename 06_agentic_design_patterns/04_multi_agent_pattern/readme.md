@@ -59,8 +59,10 @@ Schedule   Focus    Reminder  ← Specialist Agents
 
 2. **Configure Structured Output Schema**
 
-The Router Agent’s job is to analyze the user’s request and decide which specialized agent (Schedule, Focus, Reminder, or Escalation) should handle it.  
-To make its decision machine-readable, we’ll configure a structured JSON output with an **enum** field.
+    The Router Agent’s job is to analyze the user’s request and decide which specialized agent
+    (Schedule, Focus, Reminder, or Escalation) should handle it.
+    To make its decision machine-readable, we’ll configure a structured JSON output with an
+    **enum** field.
 
 1. In **OpenAI Agent Builder**, open your **Router Agent** settings  
 2. Scroll down to the **Output format** field  
