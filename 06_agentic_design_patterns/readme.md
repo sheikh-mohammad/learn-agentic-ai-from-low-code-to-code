@@ -35,13 +35,12 @@ By the end of this session, you will understand:
 **Why Agent Builder is Agentic-Native:**
 Agent Builder is built specifically for creating agentic workflows. It's not just an ai feature builder - it's designed for agents that can think, plan, and act.
 
-### The 5 Core Agentic Patterns We'll Learn
+### The 4 Core Agentic Patterns We'll Learn
 
 1. **Reflection Pattern** - Agent reviews its own work
 2. **Tool Use Pattern** - Agent decides which tools to use
 3. **Planning Pattern** - Agent breaks down complex tasks
 4. **Multi-Agent Pattern** - Agents collaborate via handoffs
-5. **Handoff/Delegation Pattern** - Agents delegate tasks to other agents
 
 ---
 
@@ -176,24 +175,6 @@ Start → Agent (planner)
 
 ---
 
-## 5. Agentic Design Pattern #5 - Handoff/Delegation
-
-### What is Handoff/Delegation?
-
-**Handoff/Delegation** is when one agent delegates a specific task to another agent with specialized expertise, then receives the result back to continue the workflow.
-
-**The Process:**
-1. Primary agent receives request
-2. Primary agent identifies task that needs specialized expertise
-3. Primary agent delegates task to specialist agent
-4. Specialist agent completes the task
-5. Specialist agent returns result to primary agent
-6. Primary agent continues with the complete workflow
-
-### Example Use Case: [Grammar Correction Assistant](./05_handoff_delegation_pattern/handoff_delegation_pattern.md)
-
----
-
 ## Agentic Pattern Reference Guide  
 
 ### Quick Reference: When to Use Each Pattern
@@ -204,7 +185,7 @@ Start → Agent (planner)
 | Tool Use | Multiple data sources available | Agent chooses right tool intelligently |
 | Planning | Multi-step complex tasks | Breaks down into manageable steps |
 | Multi-Agent | Different types of expertise needed | Specialists handle their domain |
-| Handoff/Delegation | Need specialized expertise for specific tasks | Agents delegate to domain experts |
+
 
 ### Combining Patterns
 
@@ -226,7 +207,7 @@ Start → Agent (planner)
 - Agent monitors progress
 - Agent adjusts plan based on results
 
-**All 5 Patterns:**
+**All 4 Patterns:**
 - Complex production system
 - Router determines specialist
 - Specialist delegates complex tasks
@@ -242,7 +223,7 @@ Start → Agent (planner)
 ### Key Takeaways
 
 1. **Agent Builder is agentic-native** - Use agentic patterns, not just chatbot patterns
-2. **5 core patterns** - Reflection, Tool Use, Planning, Multi-Agent, Handoff/Delegation
+2. **4 core patterns** - Reflection, Tool Use, Planning, Multi-Agent
 3. **Production systems** combine multiple patterns for complex workflows
 4. **Quality matters** - Use reflection and human approval for important decisions
 
