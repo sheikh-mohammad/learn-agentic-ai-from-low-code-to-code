@@ -18,10 +18,6 @@ Before we start, make sure you have:
 - [ ] **npm** installed (comes with Node.js)
   - Check: Type `npm --version`
 
-- [ ] **Git** installed
-  - Check: Type `git --version`
-  - If not installed: Download from [git-scm.com](https://git-scm.com)
-
 - [ ] **Code editor** installed (VS Code recommended)
   - Download from [code.visualstudio.com](https://code.visualstudio.com)
 
@@ -31,7 +27,11 @@ Before we start, make sure you have:
 - [ ] **Agent created** in Agent Builder
   - Create at [platform.openai.com/agent-builder](https://platform.openai.com/agent-builder)
 
-- [ ] **GitHub account** (needed for Vercel deployment)
+- [ ] **Git** installed (Optional - required only for GitHub + Vercel Dashboard method)
+  - Check: Type `git --version`
+  - If not installed: Download from [git-scm.com](https://git-scm.com)
+
+- [ ] **GitHub account** (Optional - required only for GitHub + Vercel Dashboard method)
   - Sign up at [github.com](https://github.com)
 
 ---
