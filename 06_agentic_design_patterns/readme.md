@@ -171,7 +171,7 @@ Start → Agent (planner)
 4. Specialist uses their expertise and tools
 5. If specialist can't solve it, escalate to human
 
-### Example Use Case: [Task Planning Assistant](./04_multi_agent_pattern/multi_agent_pattern.md)
+### Example Use Case: [Task Planning Assistant](./04_multi_agent_pattern/readme.md)
 
 ---
 
