@@ -1518,4 +1518,14 @@ By the end of this class session, you should understand:
 ---
 
 **Congratulations! You're now ready to deploy production-grade AI chat applications.** 🎉
+ 
+---
+
+## 🎥 Online class
+
+You can watch the live online class recording for this session here:
+
+- Online class: https://www.youtube.com/live/NQqtbjZroQE?si=Ys1zlhE-5oKglzOZ
+
+Feel free to share this with your teammates — it walks through the same deployment flow and demos covered in this readme.
 
